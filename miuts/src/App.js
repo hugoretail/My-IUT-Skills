@@ -15,11 +15,17 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
+        <Button />
       </header>
     </div>
   );
 }
 
 export default App;
+
+function Button() {
+  return (
+    <button>Click me!</button>
+  );
+}
