@@ -3,23 +3,31 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+      <Navbar />
+
+      <header className="">
         <h1 className="text-3xl font-bold animate-bounce">
           IUT Skills
         </h1>
 
-        <SearchBar />
       </header>
+
     </div>
   );
 }
 
-function SearchBar() {
+function Navbar() {
   return (
-    <input 
-      type="text" 
-      placeholder="Search..." 
-      className="border rounded py-2 px-4 text-blue-800 my-4"  
-    />
+    <nav className="bg-blue-500 p-4 fixed top-0 left-0 w-full z-10 shadow-lg">
+      <ul className="flex space-x-4 text-blue-100">
+        <li>Logo</li>
+        <li>Période</li>
+        <li>Liste des Skills</li>
+        <li>A propos</li>
+        <li>Contact</li>
+        <li>Settings</li>
+      </ul>
+    </nav>
   );
 }
