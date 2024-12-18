@@ -1,67 +1,73 @@
-Ressource,Nom,Semestre,Skills,Skills Equivalants,Compétences
-R1.12,Projet professionnel et personnel,1,,,
-R1.11,Bases de la communication,1,,,
-R1.10,Anglais,1,,,
-R1.09,Introduction à l'économie durable et numérique,1,,,
-R1.08,Introduction à la gestion des organisations,1,,,
-R1.07,Outils mathématiques fondamentaux,1,,,
-R1.06,Mathématiques discrètes,1,,,
-R1.05,Introduction aux bases de données et SQL,1,,,
-R1.04,Introduction aux systèmes d'exploitation et à leur fonctionnement,1,,,
-R1.03,Introduction à l'architecture des ordinateurs,1,,,
-R1.02,Développement d'interfaces web,1,,,
-R1.01,Initiation au développement,1,,,
-R2.01,Développement orienté objets,2,,,
-R2.02,Développement d'applications avec IHM,2,,,
-R2.03,Qualité de développement,2,,,
-R2.04,Communication et fonctionnement bas niveau,2,,,
-R2.05,Introduction aux services réseaux,2,,,
-R2.06,Exploitation d'une base de données,2,,,
-R2.07,Graphes,2,,,
-R2.08,Outils numériques pour les statistiques descriptives,2,,,
-R2.09,Méthodes numériques,2,,,
-R2.10,Introduction à la gestion des systèmes d'information,2,,,
-R2.11,Introduction au droit,2,,,
-R2.12,Anglais,2,,,
-R2.13,Communication technique,2,,,
-R2.14,Projet professionnel et personnel,2,,,
-R3.01,Développement web,3,,,
-R3.02,Développement efficace,3,,,
-R3.03,Analyse,3,,,
-R3.04,Qualité de développement,3,,,
-R3.05,Programmation système,3,,,
-R3.06,Architecture des réseaux,3,,,
-R3.07,SQL dans un langage de programmation,3,,,
-R3.08,Probabilités,3,,,
-R3.09,Cryptographie et sécurité,3,,,
-R3.10,Management des systèmes d'information,3,,,
-R3.11,Droit des contrats et du numérique,3,,,
-R3.12,Anglais,3,,,
-R3.13,Communication professionnelle,3,,,
-R3.14,Projet personnel et professionnel,3,,,
-R4.01,Architecture logicielle,4,,,
-R4.02,Qualité de développement,4,,,
-R4.03,Qualité et au-delà du relationnel,4,,,
-R4.04,Méthodes d'optimisation,4,,,
-R4.05,Anglais,4,,,
-R4.06,Communication interne,4,,,
-R4.07,Projet personnel et professionnel,4,,,
-R4.08,Virtualisation,4,,,
-R4.09,Management avancé des systèmes d'information,4,,,
-R4.10,Complément web,4,,,
-R4.11,Développement pour applications mobiles,4,,,
-R4.12,Automates et Langages,4,,,
-R5.01,Initiation au mangement d'une équipe de projet informatique,5,,,
-R5.02,Projet personnel et professionnel,5,,,
-R5.03,Politique de communication,5,,,
-R5.04,Qualité algorithmique,5,,,
-R5.05,Programmation avancée,5,,,
-R5.06,Sensibilisation à la programmation multimédia,5,,,
-R5.07,Automatisation de la chaîne de production,5,,,
-R5.08,Qualité de développement,5,,,
-R5.09,Virtualisation avancée,5,,,
-R5.10,Nouveaux paradigmes de base de données,5,,,
-R5.11,Méthodes d'optimisation pour l'aide à la décision,5,,,
-R5.12,Modélisations mathématiques,5,,,
-R5.13,Economie durable et numérique,5,,,
-R5.14,Anglais,5,,,
+Ressource,Nom,Semestre,Langages,IDE / Environnement de travail,Frameworks / Librairies,Outils / Outils de gestion,Compilateurs / Outils de build,Outils de design / Maquettage
+R1.01,Initiation au développement,1,Java,Netbeans,?,?,?,?
+R1.02,Développement d'interfaces web,1,HTML;CSS,Visual Studio Code;Thonny,Bootstrap,?,?,Figma
+R1.03,Introduction à l'architecture des ordinateurs,1,Bash,Terminal,?,?,?,?
+R1.04,Introduction aux systèmes d'exploitation et à leur fonctionnement,1,?,?,?,?,?,?
+R1.05,Introduction aux bases de données et SQL,1,SQL,Microsoft SQL Server;Win Design,?,?,?,?
+R1.06,Mathématiques discrètes,1,Python,Visual Studio Code;Thonny,math;matplotlib,?,?,?
+R1.07,Outils mathématiques fondamentaux,1,Python,Visual Studio Code;Thonny,Numpy,?,?,?
+R1.08,Introduction à la gestion des organisations,1,?,?,?,?,?,?
+R1.09,Introduction à l'économie durable et numérique,1,?,?,?,?,?,?
+R1.10,Anglais,1,?,?,?,?,?,Canva
+R1.11,Bases de la communication,1,?,?,?,?,?,?
+R1.12,Projet professionnel et personnel,1,?,?,?,?,?,?
+R2.01,Développement orienté objets,2,Java,Netbeans,JavaFX,?,?,UMLetino
+R2.02,Développement d'applications avec IHM,2,C#;JavaScript,Visual Studio;Visual Studio Code,?,?,?,UMLetino
+R2.03,Qualité de développement,2,Java,Netbeans,?,Git;GitLab,?,?
+R2.04,Communication et fonctionnement bas niveau,2,Assembleur;C,Visual Studio Code;Thonny,?,?,gcc,?
+R2.05,Introduction aux services réseaux,2,C#,Visual Studio,?,Filius,?,?
+R2.06,Exploitation d'une base de données,2,Python;SQL,Visual Studio Code;Thonny,pandas;matplotlib;geopandas,?,?,?
+R2.07,Graphes,2,?,?,?,?,?,?
+R2.08,Outils numériques pour les statistiques descriptives,2,Python,Visual Studio Code;Thonny,numpy;matplotlib;math,?,?,?
+R2.09,Méthodes numériques,2,Python,Visual Studio Code;Thonny,sympy;math;numpy,?,?,?
+R2.10,Introduction à la gestion des systèmes d'information,2,?,?,?,Mindview;Excel;LibreOffice Calc,?,?
+R2.11,Introduction au droit,2,?,?,?,?,?,?
+R2.12,Anglais,2,?,?,?,?,?,Canva
+R2.13,Communication technique,2,?,?,?,?,?,?
+R2.14,Projet professionnel et personnel,2,?,?,?,?,?,?
+R3.01,Développement web,3,HTML;CSS;PHP,Visual Studio Code;PhpStorm,Symfony,?,?,?
+R3.02,Développement efficace,3,C,Visual Studio Code;CLion,?,?,gcc,?
+R3.03,Analyse,3,Java,Eclipse,JavaFX,?,?,UMLetino
+R3.04,Qualité de développement,3,Java,Eclipse,JavaFX,?,?,UMLetino
+R3.05,Programmation système,3,C,Visual Studio Code;CLion;Terminal,?,?,?,?
+R3.06,Architecture des réseaux,3,Bash;Markdown,NEmu;Terminal,?,?,?,?
+R3.07,SQL dans un langage de programmation,3,SQL,Oracle SQL;Microsoft SQL Server,?,?,?,?
+R3.08,Probabilités,3,Python,Visual Studio Code;PyCharm;Thonny,math;matplotlib;numpy;random,?,?,?
+R3.09,Cryptographie et sécurité,3,Python,Visual Studio Code;PyCharm;Thonny,math;random;sys;argparse;sympy;hashlib,?,?,?
+R3.10,Management des systèmes d'information,3,?,?,?,?,?,?
+R3.11,Droit des contrats et du numérique,3,?,?,?,?,?,?
+R3.12,Anglais,3,?,?,?,?,?,Canva
+R3.13,Communication professionnelle,3,?,?,?,?,?,Canva
+R3.14,Projet personnel et professionnel,3,?,?,?,?,?,?
+R4.01,Architecture logicielle,4,?,?,?,?,?,?
+R4.02,Qualité de développement,4,?,?,?,?,?,?
+R4.03,Qualité et au-delà du relationnel,4,?,?,?,?,?,?
+R4.04,Méthodes d'optimisation,4,?,?,?,?,?,?
+R4.05,Anglais,4,?,?,?,?,?,?
+R4.06,Communication interne,4,?,?,?,?,?,?
+R4.07,Projet personnel et professionnel,4,?,?,?,?,?,?
+R4.08,Virtualisation,4,?,?,?,?,?,?
+R4.09,Management avancé des systèmes d'information,4,?,?,?,?,?,?
+R4.10,Complément web,4,?,?,?,?,?,?
+R4.11,Développement pour applications mobiles,4,?,?,?,?,?,?
+R4.12,Automates et Langages,4,?,?,?,?,?,?
+R5.01,Initiation au mangement d'une équipe de projet informatique,5,?,?,?,?,?,?
+R5.02,Projet personnel et professionnel,5,?,?,?,?,?,?
+R5.03,Politique de communication,5,?,?,?,?,?,?
+R5.04,Qualité algorithmique,5,?,?,?,?,?,?
+R5.05,Programmation avancée,5,?,?,?,?,?,?
+R5.06,Sensibilisation à la programmation multimédia,5,?,?,?,?,?,?
+R5.07,Automatisation de la chaîne de production,5,?,?,?,?,?,?
+R5.08,Qualité de développement,5,?,?,?,?,?,?
+R5.09,Virtualisation avancée,5,?,?,?,?,?,?
+R5.10,Nouveaux paradigmes de base de données,5,?,?,?,?,?,?
+R5.11,Méthodes d'optimisation pour l'aide à la décision,5,?,?,?,?,?,?
+R5.12,Modélisations mathématiques,5,?,?,?,?,?,?
+R5.13,Economie durable et numérique,5,?,?,?,?,?,?
+R5.14,Anglais,5,?,?,?,?,?,?
+R6.01,Initiation à l'entrepreneuriat,6,?,?,?,?,?,?
+R6.02,Droit du numérique et de la propriété intellectuelle,6,?,?,?,?,?,?
+R6.03,Communication : organisation et diffusion de l'informatique,6,?,?,?,?,?,?
+R6.04,Projet personnel et professionnel,6,?,?,?,?,?,?
+R6.05,Développement avancé,6,?,?,?,?,?,?
+R6.06,Maintenance applicative,6,?,?,?,?,?,?
