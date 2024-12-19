@@ -2,10 +2,10 @@ import './App.css';
 
 export default function App() {
     return (
-        <div className="App">
+        <div className="App w-full">
             <Navbar />
 
-            <header className="">
+            <header className="min-h-screen flex flex-col">
                 <Title />
                 <Searchbar />
             </header>
@@ -29,7 +29,7 @@ function Navbar() {
 
 function Title() {
     return (
-        <h1 className="text-3xl font-bold animate-bounce">
+        <h1 className="text-3xl text-white font-bold animate-bounce">
         IUT Skills
     </h1>);
 }
@@ -40,7 +40,7 @@ function Searchbar() {
             <div className="relative mb-4 flex w-full flex-wrap items-stretch">
             <input
                 type="search"
-                className="relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
+                className=" relative m-0 -mr-0.5 block w-[1px] min-w-0 flex-auto rounded-l border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-white focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
                 placeholder="Search"
                 aria-label="Search"
                 aria-describedby="button-addon1" />
@@ -67,11 +67,23 @@ function Searchbar() {
 
 function Footer() {
     return (
-        <nav className="bg-sky-950 p-4 fixed bot-0 left-0 w-full shadow-lg">
-            <ul className="flex space-x-4 text-blue-100">
-                <li>A propos</li>
-                <li>Contact</li>
-                <li>Settings</li>
+        <nav className="bg-sky-950 w-full shadow-lg">
+            <ul className="flex text-blue-100 justify-between">
+                <li className="flex w-full items-center justify-center">
+                    <button className="px-[30%] py-5 text-white rounded hover:bg-sky-900">
+                        A propos
+                    </button>
+                </li>
+                <li className="flex w-full items-center justify-center">
+                    <button className="px-[30%] py-5 text-white rounded hover:bg-sky-900">
+                        Contact
+                    </button>
+                </li>
+                <li className="flex w-full items-center justify-center">
+                    <button className="px-[30%] py-5 text-white rounded hover:bg-sky-900">
+                        Settings
+                    </button>
+                </li>
             </ul>
         </nav>
     );
