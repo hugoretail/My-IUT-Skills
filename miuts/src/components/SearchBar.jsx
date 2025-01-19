@@ -27,7 +27,7 @@ export default function Searchbar({ iutData, technicalRessources }) {
   );
 
   return (
-    <div className="mb-6 md:w-96">
+    <div className="mb-6 md:w-96 relative">
       <div className="relative flex items-stretch w-full">
         <input
           type="search"
@@ -37,35 +37,36 @@ export default function Searchbar({ iutData, technicalRessources }) {
           onChange={(e) => setQuery(e.target.value)}
         />
       </div>
-      <ul>
-        {filteredIut.map((item, index) => (
-          <li
-            key={index}
-            className="p-2 border-b border-gray-700 flex items-center"
-          >
-            <strong>{item.Ressource}</strong> - {item.Nom} - Semestre{" "}
-            {item.Semestre}
-          </li>
-        ))}
-        {filteredTechnical.map((item, index) => (
-          <li
-            key={index}
-            className="p-2 border-b border-gray-700 flex items-center"
-          >
-            {item.NomImage && (
-              <img
-                src={`/logo/${item.NomImage}.png`}
-                alt={item.Ressource}
-                className="w-6 h-6 mr-2"
-              />
-            )}
-            <strong>{item.Ressource}</strong>
-            {item.IUT === "TRUE" && (
-              <span className="ml-2 text-sm text-gray-400">(IUT)</span>
-            )}
-          </li>
-        ))}
-      </ul>
+      {query && (
+        <div className="absolute top-full left-0 right-0 mt-2 bg-gray-800 border border-gray-700 rounded shadow-lg max-h-60 overflow-y-auto z-10">
+          <ul>
+            {filteredIut.map((item, index) => (
+              <li key={index} className="p-2 border-b border-gray-700">
+                <strong>{item.Ressource}</strong> - {item.Nom} - Semestre{" "}
+                {item.Semestre}
+              </li>
+            ))}
+            {filteredTechnical.map((item, index) => (
+              <li
+                key={index}
+                className="p-2 border-b border-gray-700 flex items-center"
+              >
+                {item.NomImage && (
+                  <img
+                    src={`/logo/${item.NomImage}.png`}
+                    alt={item.Ressource}
+                    className="w-6 h-6 mr-2"
+                  />
+                )}
+                <strong>{item.Ressource}</strong>
+                {item.IUT === "TRUE" && (
+                  <span className="ml-2 text-sm text-gray-400">(IUT)</span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
