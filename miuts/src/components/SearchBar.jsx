@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Searchbar({ iutData, technicalRessources }) {
+export default function Searchbar({ iutData, technicalRessources, onSelect }) {
   const [query, setQuery] = useState("");
 
   const iutSearchable = iutData.map((item) => ({
@@ -41,7 +41,11 @@ export default function Searchbar({ iutData, technicalRessources }) {
         <div className="absolute top-full left-0 right-0 mt-2 bg-gray-800 border border-gray-700 rounded shadow-lg max-h-60 overflow-y-auto z-10">
           <ul>
             {filteredIut.map((item, index) => (
-              <li key={index} className="p-2 border-b border-gray-700">
+              <li
+                key={index}
+                className="p-2 border-b border-gray-700 cursor-pointer hover:bg-gray-700"
+                onClick={() => onSelect(item)}
+              >
                 <strong>{item.Ressource}</strong> - {item.Nom} - Semestre{" "}
                 {item.Semestre}
               </li>
@@ -49,7 +53,8 @@ export default function Searchbar({ iutData, technicalRessources }) {
             {filteredTechnical.map((item, index) => (
               <li
                 key={index}
-                className="p-2 border-b border-gray-700 flex items-center"
+                className="p-2 border-b border-gray-700 flex items-center cursor-pointer hover:bg-gray-700"
+                onClick={() => onSelect(item)}
               >
                 {item.NomImage && (
                   <img
