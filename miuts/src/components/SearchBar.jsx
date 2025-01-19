@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Searchbar({ iutData, technicalRessources, onSelect }) {
+const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
   const [query, setQuery] = useState("");
   const [isFocused, setIsFocused] = useState(false);
 
@@ -27,6 +27,11 @@ export default function Searchbar({ iutData, technicalRessources, onSelect }) {
     item.Ressource.toLowerCase().includes(query.toLowerCase())
   );
 
+  const handleSelect = (item) => {
+    onSelect(item);
+    setQuery("");
+  };
+
   return (
     <div className="mb-6 md:w-96 relative">
       <div className="relative flex items-stretch w-full">
@@ -47,7 +52,7 @@ export default function Searchbar({ iutData, technicalRessources, onSelect }) {
               <li
                 key={index}
                 className="p-2 border-b border-gray-700 cursor-pointer hover:bg-gray-700"
-                onMouseDown={() => onSelect(item)}
+                onMouseDown={() => handleSelect(item)}
               >
                 <strong>{item.Ressource}</strong> - {item.Nom} - Semestre{" "}
                 {item.Semestre}
@@ -57,7 +62,7 @@ export default function Searchbar({ iutData, technicalRessources, onSelect }) {
               <li
                 key={index}
                 className="p-2 border-b border-gray-700 flex items-center cursor-pointer hover:bg-gray-700"
-                onMouseDown={() => onSelect(item)}
+                onMouseDown={() => handleSelect(item)}
               >
                 {item.NomImage && (
                   <img
@@ -77,4 +82,6 @@ export default function Searchbar({ iutData, technicalRessources, onSelect }) {
       )}
     </div>
   );
-}
+};
+
+export default Searchbar;
