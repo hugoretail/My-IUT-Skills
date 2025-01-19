@@ -1,0 +1,362 @@
+[
+  {
+    "Ressource": "Java",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": "java_logo"
+  },
+  {
+    "Ressource": "Netbeans",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": "netbeans_logo"
+  },
+  {
+    "Ressource": "HTML",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "CSS",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Visual Studio Code",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Thonny",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Bootstrap",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Bash",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Terminal",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Microsoft SQL Server",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Win Design",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Python",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "math",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "matplotlib",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Numpy",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Figma",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "JavaFX",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Git",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "GitLab",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Assembleur",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "C",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "gcc",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "pandas",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "geopandas",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "sympy",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Mindview",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Excel",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "LibreOffice Calc",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Symfony",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "PhpStorm",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "CLion",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Eclipse",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Markdown",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Oracle SQL",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "random",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "sys",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "argparse",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "hashlib",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Canva",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "UMLetino",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "NEmu",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "Filius",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "PyCharm",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "C#",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  },
+  {
+    "Ressource": "JavaScript",
+    "Description": "TODO",
+    "Notions clés": "",
+    "Ressources liées": "",
+    "IUT": "TRUE",
+    "Nom image": ""
+  }
+]
