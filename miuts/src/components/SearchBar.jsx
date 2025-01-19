@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
   const [query, setQuery] = useState("");
   const [isFocused, setIsFocused] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
+  const resultsRef = useRef(null);
 
   const iutSearchable = iutData.map((item) => ({
     Ressource: item.Ressource,
@@ -27,10 +29,41 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
     item.Ressource.toLowerCase().includes(query.toLowerCase())
   );
 
+  const combinedResults = [...filteredIut, ...filteredTechnical];
+
   const handleSelect = (item) => {
     onSelect(item);
     setQuery("");
+    setIsFocused(false);
   };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "ArrowDown") {
+      setHighlightedIndex((prevIndex) =>
+        prevIndex < combinedResults.length - 1 ? prevIndex + 1 : prevIndex
+      );
+    } else if (e.key === "ArrowUp") {
+      setHighlightedIndex((prevIndex) =>
+        prevIndex > 0 ? prevIndex - 1 : prevIndex
+      );
+    } else if (e.key === "Enter") {
+      if (highlightedIndex >= 0 && highlightedIndex < combinedResults.length) {
+        handleSelect(combinedResults[highlightedIndex]);
+      }
+    } else if (e.key === "Escape") {
+      setIsFocused(false);
+      setHighlightedIndex(-1);
+    }
+  };
+
+  useEffect(() => {
+    if (isFocused && resultsRef.current) {
+      resultsRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
+  }, [highlightedIndex]);
 
   return (
     <div className="mb-6 md:w-96 relative">
@@ -43,25 +76,19 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
+          onKeyDown={handleKeyDown}
         />
       </div>
       {isFocused && query && (
         <div className="absolute top-full left-0 right-0 mt-2 bg-gray-800 border border-gray-700 rounded shadow-lg max-h-60 overflow-y-auto z-10">
           <ul>
-            {filteredIut.map((item, index) => (
+            {combinedResults.map((item, index) => (
               <li
                 key={index}
-                className="p-2 border-b border-gray-700 cursor-pointer hover:bg-gray-700"
-                onMouseDown={() => handleSelect(item)}
-              >
-                <strong>{item.Ressource}</strong> - {item.Nom} - Semestre{" "}
-                {item.Semestre}
-              </li>
-            ))}
-            {filteredTechnical.map((item, index) => (
-              <li
-                key={index}
-                className="p-2 border-b border-gray-700 flex items-center cursor-pointer hover:bg-gray-700"
+                ref={index === highlightedIndex ? resultsRef : null}
+                className={`p-2 border-b border-gray-700 cursor-pointer hover:bg-gray-700 ${
+                  index === highlightedIndex ? "bg-gray-700" : ""
+                }`}
                 onMouseDown={() => handleSelect(item)}
               >
                 {item.NomImage && (
@@ -71,7 +98,8 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
                     className="w-6 h-6 mr-2"
                   />
                 )}
-                <strong>{item.Ressource}</strong>
+                <strong>{item.Ressource}</strong> - {item.Nom} - Semestre{" "}
+                {item.Semestre}
                 {item.IUT === "TRUE" && (
                   <span className="ml-2 text-sm text-gray-400">(IUT)</span>
                 )}
