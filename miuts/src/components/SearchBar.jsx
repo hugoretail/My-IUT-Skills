@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export default function Searchbar({ iutData, technicalRessources, onSelect }) {
   const [query, setQuery] = useState("");
+  const [isFocused, setIsFocused] = useState(false);
 
   const iutSearchable = iutData.map((item) => ({
     Ressource: item.Ressource,
@@ -35,16 +36,18 @@ export default function Searchbar({ iutData, technicalRessources, onSelect }) {
           placeholder="Ressource, technologie, outil..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onFocus={() => setIsFocused(true)}
+          onBlur={() => setIsFocused(false)}
         />
       </div>
-      {query && (
+      {isFocused && query && (
         <div className="absolute top-full left-0 right-0 mt-2 bg-gray-800 border border-gray-700 rounded shadow-lg max-h-60 overflow-y-auto z-10">
           <ul>
             {filteredIut.map((item, index) => (
               <li
                 key={index}
                 className="p-2 border-b border-gray-700 cursor-pointer hover:bg-gray-700"
-                onClick={() => onSelect(item)}
+                onMouseDown={() => onSelect(item)}
               >
                 <strong>{item.Ressource}</strong> - {item.Nom} - Semestre{" "}
                 {item.Semestre}
@@ -54,7 +57,7 @@ export default function Searchbar({ iutData, technicalRessources, onSelect }) {
               <li
                 key={index}
                 className="p-2 border-b border-gray-700 flex items-center cursor-pointer hover:bg-gray-700"
-                onClick={() => onSelect(item)}
+                onMouseDown={() => onSelect(item)}
               >
                 {item.NomImage && (
                   <img
