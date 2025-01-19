@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Details from './components/Details';
+import ScrollToTop from './components/ScrollToTop';
 import Searchbar from './components/SearchBar';
 import Title from './components/Title';
 
@@ -40,11 +41,14 @@ export default function App() {
         />
       </main>
       {selectedItem && (
-        <div ref={detailsRef} className="min-h-screen w-full flex items-center justify-center bg-gray-800 text-white py-8">
-          <div className="w-11/12 md:w-3/4 lg:w-1/2 bg-gray-700 p-8 rounded">
-            <Details item={selectedItem} />
+        <>
+          <div ref={detailsRef} className="min-h-screen w-full flex flex-col items-center justify-center bg-gray-800 text-white py-8">
+            <div className="w-11/12 md:w-3/4 lg:w-1/2 bg-gray-700 p-8 rounded">
+              <Details item={selectedItem} />
+            </div>
+            <ScrollToTop isVisible={true} />
           </div>
-        </div>
+        </>
       )}
     </div>
   );
