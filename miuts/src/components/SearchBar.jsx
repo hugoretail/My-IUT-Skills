@@ -91,18 +91,23 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
                 }`}
                 onMouseDown={() => handleSelect(item)}
               >
-                {item.NomImage && (
-                  <img
-                    src={`/logo/${item.NomImage}.png`}
-                    alt={item.Ressource}
-                    className="w-6 h-6 mr-2"
-                  />
-                )}
-                <strong>{item.Ressource}</strong> - {item.Nom} - Semestre{" "}
-                {item.Semestre}
-                {item.IUT === "TRUE" && (
-                  <span className="ml-2 text-sm text-gray-400">(IUT)</span>
-                )}
+                <div className="grid grid-cols-[auto_1fr] gap-2 items-center">
+                  {item.NomImage && (
+                    <img
+                      src={`/logo/${item.NomImage}.webp`}
+                      alt={item.Ressource}
+                      className="w-12 h-12 object-contain"
+                    />
+                  )}
+                  <div>
+                    <p className="font-bold">{item.Ressource}</p>
+                    {item.Nom && <p>{item.Nom}</p>}
+                    {item.Semestre && <p>Semestre: {item.Semestre}</p>}
+                    {item.IUT === "TRUE" && (
+                      <p className="text-sm text-gray-400">(IUT)</p>
+                    )}
+                  </div>
+                </div>
               </li>
             ))}
           </ul>

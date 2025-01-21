@@ -21,7 +21,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "html5_logo"
   },
   {
     "Ressource": "CSS",
@@ -29,7 +29,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "css_logo"
   },
   {
     "Ressource": "Visual Studio Code",
@@ -37,7 +37,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "visual_studio_code_logo"
   },
   {
     "Ressource": "Thonny",
@@ -45,7 +45,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "thonny_logo"
   },
   {
     "Ressource": "Bootstrap",
@@ -53,7 +53,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "bootstrap_logo"
   },
   {
     "Ressource": "Bash",
@@ -61,7 +61,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "bash_logo"
   },
   {
     "Ressource": "Terminal",
@@ -69,7 +69,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "terminal_logo"
   },
   {
     "Ressource": "Microsoft SQL Server",
@@ -77,7 +77,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "microsoft_sql_server_logo"
   },
   {
     "Ressource": "Win Design",
@@ -85,7 +85,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "win_design_logo"
   },
   {
     "Ressource": "Python",
@@ -93,7 +93,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "python_logo"
   },
   {
     "Ressource": "math",
@@ -101,7 +101,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "math_logo"
   },
   {
     "Ressource": "matplotlib",
@@ -109,7 +109,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "matplotlib_logo"
   },
   {
     "Ressource": "Numpy",
@@ -117,7 +117,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "numpy_logo"
   },
   {
     "Ressource": "Figma",
@@ -125,7 +125,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "figma_logo"
   },
   {
     "Ressource": "JavaFX",
@@ -133,7 +133,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "javafx_logo"
   },
   {
     "Ressource": "Git",
@@ -141,7 +141,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "git_logo"
   },
   {
     "Ressource": "GitLab",
@@ -149,7 +149,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "gitlab_logo"
   },
   {
     "Ressource": "Assembleur",
@@ -157,7 +157,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "?"
   },
   {
     "Ressource": "C",
@@ -165,7 +165,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "c_logo"
   },
   {
     "Ressource": "gcc",
@@ -173,7 +173,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "gcc_compiler_logo"
   },
   {
     "Ressource": "pandas",
@@ -181,7 +181,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "pandas_logo"
   },
   {
     "Ressource": "geopandas",
@@ -189,7 +189,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "geopandas_logo"
   },
   {
     "Ressource": "sympy",
@@ -197,7 +197,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "sympy_logo"
   },
   {
     "Ressource": "Mindview",
@@ -205,7 +205,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "mindview_logo"
   },
   {
     "Ressource": "Excel",
@@ -213,7 +213,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "excel_logo"
   },
   {
     "Ressource": "LibreOffice Calc",
@@ -221,7 +221,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "libreoffice_logo"
   },
   {
     "Ressource": "Symfony",
@@ -229,7 +229,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "symfony_logo"
   },
   {
     "Ressource": "PhpStorm",
@@ -237,7 +237,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "phpstorm_logo"
   },
   {
     "Ressource": "CLion",
@@ -245,7 +245,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "clion_logo"
   },
   {
     "Ressource": "Eclipse",
@@ -253,7 +253,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "eclipse_logo"
   },
   {
     "Ressource": "Markdown",
@@ -261,7 +261,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "markdown_logo"
   },
   {
     "Ressource": "Oracle SQL",
@@ -269,7 +269,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "oracle_logo"
   },
   {
     "Ressource": "random",
@@ -277,7 +277,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "?"
   },
   {
     "Ressource": "sys",
@@ -285,7 +285,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "?"
   },
   {
     "Ressource": "argparse",
@@ -293,7 +293,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "?"
   },
   {
     "Ressource": "hashlib",
@@ -301,7 +301,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "hashlib_logo"
   },
   {
     "Ressource": "Canva",
@@ -309,7 +309,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "canva_logo"
   },
   {
     "Ressource": "UMLetino",
@@ -317,7 +317,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "umletino_logo"
   },
   {
     "Ressource": "NEmu",
@@ -325,7 +325,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "nemu_logo"
   },
   {
     "Ressource": "Filius",
@@ -333,7 +333,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "filius_logo"
   },
   {
     "Ressource": "PyCharm",
@@ -341,7 +341,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "pycharm_logo"
   },
   {
     "Ressource": "C#",
@@ -349,7 +349,7 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "c_sharp_logo"
   },
   {
     "Ressource": "JavaScript",
@@ -357,6 +357,6 @@
     "Notions clés": "",
     "Ressources liées": "",
     "IUT": "TRUE",
-    "Nom image": ""
+    "Nom image": "javascript_logo"
   }
 ]
