@@ -25,7 +25,7 @@ export default function Details({ item }) {
         <img
           src={`/logo/${item.NomImage}.png`}
           alt={item.Ressource}
-          className="w-12 h-12 mt-2"
+          className="w-12 h-12 mt-2 object-contain"
         />
       )}
     </div>
