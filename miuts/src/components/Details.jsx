@@ -5,17 +5,19 @@ export default function Details({ item }) {
 
   return (
     <div className="mt-4 p-4 bg-gray-800 border border-gray-700 rounded shadow-lg">
-      <h2 className="text-2xl font-bold mb-2">
-        {item.Ressource}
+      <h2 className="text-2xl font-bold mb-2 flex justify-around items-center">
+        {item.Ressource && (
+          <span className="p-3">
+            {item.Ressource}
+          </span>
+        )}
         {item.Nom && (
           <span>
-            {' - '}
             {item.Nom}
           </span>
         )}
         {item.Semestre && (
           <span>
-            {' - '}
             S{item.Semestre}
           </span>
         )}
