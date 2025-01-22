@@ -14,19 +14,19 @@ export default function Details({ item }) {
         {!item.NomImage && (
           <RiBookShelfLine size="1.5em" className="mr-1" />
         )}
-        <h2 className="text-2xl font-bold flex justify-around items-center">
+        <h2 className="text-2xl font-bold">
         {item.Ressource && (
           <span className="p-3">
               {item.Ressource}
           </span>
         )}
           {item.Nom && (
-            <span>
+            <span className="p-3">
                 {item.Nom}
             </span>
           )}
           {item.Semestre && (
-            <span>
+            <span className="p-3">
                 S{item.Semestre}
             </span>
           )}
