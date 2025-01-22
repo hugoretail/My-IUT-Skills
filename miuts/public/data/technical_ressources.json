@@ -2,377 +2,847 @@
   {
     "Ressource": "Java",
     "Description": "Un langage de programmation orienté objet utilisé pour développer des applications web, mobiles et de bureau.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Programmation orientée objet",
+      "Portabilité",
+      "Garbage collection",
+      "API riche",
+      "Sécurité"
+    ],
+    "Ressources liées": {
+      "Python": "Langage de programmation interprété, connu pour sa lisibilité et sa simplicité. Comme Java, il est utilisé dans le développement web et scientifique, et partage des concepts de programmation orientée objet.",
+      "C#": "Langage de programmation orienté objet développé par Microsoft, similaire à Java en termes de syntaxe et de paradigmes de programmation. Utilisé pour le développement d'applications de bureau et web.",
+      "Kotlin": "Langage de programmation moderne et concis, entièrement interopérable avec Java. Souvent utilisé pour le développement Android, il partage des notions de portabilité et de sécurité avec Java."
+    },
     "IUT": "TRUE",
     "Nom image": "java_logo"
   },
   {
     "Ressource": "Netbeans",
     "Description": "Un environnement de développement intégré (IDE) open source qui prend en charge le développement d'applications Java, PHP, HTML5 et C++.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Débogage",
+      "Refactoring",
+      "Support multi-langages",
+      "Plugins",
+      "Interface utilisateur intuitive"
+    ],
+    "Ressources liées": {
+      "Eclipse": "IDE populaire pour le développement Java et d'autres langages. Comme Netbeans, il offre des fonctionnalités de débogage et de refactoring, et est extensible via des plugins.",
+      "IntelliJ IDEA": "IDE puissant et ergonomique pour le développement Java, offrant des fonctionnalités avancées de refactoring et de débogage. Souvent préféré par les développeurs professionnels pour sa productivité.",
+      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages. Apprécié pour sa rapidité et ses extensions, il est souvent utilisé pour le développement web."
+    },
     "IUT": "TRUE",
     "Nom image": "netbeans_logo"
   },
   {
     "Ressource": "HTML",
     "Description": "Le langage de balisage standard utilisé pour créer et structurer les pages web.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Éléments HTML",
+      "Attributs",
+      "Formulaires",
+      "Multimédia",
+      "Sémantique"
+    ],
+    "Ressources liées": {
+      "Markdown": "Langage de balisage léger utilisé pour formater du texte. Utilisé dans les documents et les fichiers README, il partage des concepts de structuration de contenu avec HTML.",
+      "XML": "Langage de balisage extensible utilisé pour structurer des données. Souvent utilisé en complément de HTML pour le stockage et le transport de données, partageant des notions d'éléments et d'attributs.",
+      "SVG": "Format de fichier XML utilisé pour décrire des graphiques vectoriels. Souvent intégré dans les documents HTML pour afficher des graphiques et des illustrations, partageant des notions de multimédia et de sémantique."
+    },
     "IUT": "TRUE",
     "Nom image": "html5_logo"
   },
   {
     "Ressource": "CSS",
     "Description": "Un langage de feuille de style utilisé pour décrire l'apparence et la mise en forme des documents HTML, notamment les couleurs, les polices et les dispositions.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Sélecteurs",
+      "Box model",
+      "Flexbox",
+      "Grid",
+      "Animations"
+    ],
+    "Ressources liées": {
+      "Sass": "Préprocesseur CSS qui ajoute des fonctionnalités comme les variables et les mixins. Il améliore la productivité en permettant une écriture plus concise et maintenable des styles.",
+      "Bootstrap": "Framework CSS populaire pour la création de sites web réactifs. Il fournit des composants pré-stylisés et des grilles, facilitant la mise en forme et la disposition des pages.",
+      "Tailwind CSS": "Framework CSS utilitaire pour créer des interfaces utilisateur rapidement. Il permet de composer des classes utilitaires pour appliquer des styles directement dans le HTML."
+    },
     "IUT": "TRUE",
     "Nom image": "css_logo"
   },
   {
     "Ressource": "Visual Studio Code",
     "Description": "Un éditeur de code source gratuit, extensible et multiplateforme développé par Microsoft, largement utilisé pour le développement web et cloud.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Éditeur de code",
+      "Extensions",
+      "Débogage",
+      "IntelliSense",
+      "Git intégré"
+    ],
+    "Ressources liées": {
+      "Sublime Text": "Éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités.",
+      "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
+      "Brackets": "Éditeur de texte open source principalement utilisé pour le développement web, avec des fonctionnalités de prévisualisation en direct."
+    },
     "IUT": "TRUE",
     "Nom image": "visual_studio_code_logo"
   },
   {
     "Ressource": "Thonny",
     "Description": "Un environnement de développement intégré (IDE) pour Python, conçu pour les débutants avec des fonctionnalités simplifiées pour l'apprentissage et le débogage du code Python.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "IDE",
+      "Python",
+      "Débogage",
+      "Interface simplifiée",
+      "Apprentissage"
+    ],
+    "Ressources liées": {
+      "IDLE": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants.",
+      "Mu Editor": "Éditeur de texte simple pour Python, conçu pour les débutants et les enseignants.",
+      "PyCharm Edu": "Version éducative de PyCharm, offrant des fonctionnalités simplifiées pour l'apprentissage du Python."
+    },
     "IUT": "TRUE",
     "Nom image": "thonny_logo"
   },
   {
     "Ressource": "Bootstrap",
     "Description": "Un framework CSS open source pour concevoir des sites web réactifs et mobiles en premier.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Framework CSS",
+      "Réactivité",
+      "Composants",
+      "Grille",
+      "Personnalisation"
+    ],
+    "Ressources liées": {
+      "Foundation": "Framework CSS réactif et avancé, offrant des outils pour créer des sites web et des applications.",
+      "Bulma": "Framework CSS moderne basé sur Flexbox, offrant des composants réactifs et faciles à utiliser.",
+      "Tailwind CSS": "Framework CSS utilitaire pour créer des interfaces utilisateur rapidement, permettant de composer des classes utilitaires pour appliquer des styles directement dans le HTML."
+    },
     "IUT": "TRUE",
     "Nom image": "bootstrap_logo"
   },
   {
     "Ressource": "Bash",
     "Description": "Un shell Unix et un langage de commande utilisé pour l'automatisation des tâches et la gestion du système.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Shell",
+      "Script",
+      "Automatisation",
+      "Commandes Unix",
+      "Gestion du système"
+    ],
+    "Ressources liées": {
+      "Zsh": "Shell Unix avec des fonctionnalités avancées et une personnalisation étendue, souvent utilisé comme alternative à Bash.",
+      "Fish": "Shell Unix interactif et convivial, offrant des fonctionnalités modernes et une syntaxe simplifiée.",
+      "PowerShell": "Shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows."
+    },
     "IUT": "TRUE",
     "Nom image": "bash_logo"
   },
   {
     "Ressource": "Terminal",
     "Description": "Une interface en ligne de commande utilisée pour interagir avec le système d'exploitation via des commandes textuelles.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Ligne de commande",
+      "Shell",
+      "Commandes",
+      "Automatisation",
+      "Gestion du système"
+    ],
+    "Ressources liées": {
+      "Command Prompt": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts.",
+      "iTerm2": "Terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue.",
+      "GNOME Terminal": "Terminal pour les environnements de bureau GNOME sous Linux, offrant des fonctionnalités de base et avancées pour l'interaction avec le système."
+    },
     "IUT": "TRUE",
     "Nom image": "terminal_logo"
   },
   {
     "Ressource": "Microsoft SQL Server",
     "Description": "Un système de gestion de bases de données relationnelles développé par Microsoft.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Base de données",
+      "SQL",
+      "Transactions",
+      "Sécurité",
+      "Performance"
+    ],
+    "Ressources liées": {
+      "Oracle Database": "Système de gestion de bases de données relationnelles développé par Oracle, offrant des fonctionnalités avancées de gestion des données.",
+      "MySQL": "Système de gestion de bases de données relationnelles open source, largement utilisé pour les applications web.",
+      "PostgreSQL": "Système de gestion de bases de données relationnelles open source, connu pour sa robustesse et ses fonctionnalités avancées."
+    },
     "IUT": "TRUE",
     "Nom image": "microsoft_sql_server_logo"
   },
   {
-    "Ressource": "Win Design",
+    "Ressource": "WinDesign",
     "Description": "Un outil de modélisation pour la conception de bases de données et de systèmes d'information.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Modélisation",
+      "Base de données",
+      "Conception",
+      "Diagrammes",
+      "Systèmes d'information"
+    ],
+    "Ressources liées": {
+      "ER/Studio": "Outil de modélisation de données pour la conception et la gestion des bases de données.",
+      "IBM InfoSphere Data Architect": "Outil de modélisation de données pour la conception et l'intégration des bases de données.",
+      "Toad Data Modeler": "Outil de modélisation de données pour la conception et la gestion des bases de données, offrant des fonctionnalités avancées de modélisation."
+    },
     "IUT": "TRUE",
     "Nom image": "win_design_logo"
   },
   {
     "Ressource": "Python",
     "Description": "Un langage de programmation interprété, de haut niveau et polyvalent, apprécié pour sa syntaxe claire et sa large bibliothèque standard.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Programmation orientée objet",
+      "Lisibilité",
+      "Bibliothèque standard",
+      "Interprété",
+      "Polyvalence"
+    ],
+    "Ressources liées": {
+      "Ruby": "Langage de programmation interprété, connu pour sa syntaxe élégante et sa simplicité, souvent comparé à Python pour sa lisibilité.",
+      "Perl": "Langage de programmation interprété, utilisé pour la manipulation de texte et l'administration système, partageant des concepts de polyvalence avec Python.",
+      "JavaScript": "Langage de programmation interprété, principalement utilisé pour le développement web, partageant des notions de programmation orientée objet et de polyvalence avec Python."
+    },
     "IUT": "TRUE",
     "Nom image": "python_logo"
   },
   {
     "Ressource": "math",
     "Description": "Un module Python qui fournit des fonctions mathématiques de base comme les logarithmes, les trigonométries et les puissances.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Fonctions mathématiques",
+      "Logarithmes",
+      "Trigonométrie",
+      "Puissances",
+      "Calcul"
+    ],
+    "Ressources liées": {
+      "NumPy": "Bibliothèque Python pour le calcul scientifique, offrant des fonctionnalités avancées pour les tableaux et les matrices.",
+      "SciPy": "Bibliothèque Python pour le calcul scientifique et technique, construite sur NumPy, offrant des fonctionnalités avancées de calcul.",
+      "SymPy": "Bibliothèque Python pour l'algèbre symbolique et le calcul formel, offrant des fonctionnalités avancées de manipulation mathématique."
+    },
     "IUT": "TRUE",
     "Nom image": "math_logo"
   },
   {
     "Ressource": "matplotlib",
     "Description": "Une bibliothèque Python pour créer des visualisations de données statiques, animées et interactives.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Visualisation de données",
+      "Graphiques",
+      "Plots",
+      "Personnalisation",
+      "Interactivité"
+    ],
+    "Ressources liées": {
+      "Seaborn": "Bibliothèque Python pour la visualisation de données basée sur Matplotlib, offrant des graphiques statistiques attractifs.",
+      "Plotly": "Bibliothèque Python pour la création de graphiques interactifs et de visualisations de données, offrant des fonctionnalités avancées d'interactivité.",
+      "Bokeh": "Bibliothèque Python pour la création de visualisations interactives et web, offrant des fonctionnalités avancées de personnalisation et d'interactivité."
+    },
     "IUT": "TRUE",
     "Nom image": "matplotlib_logo"
   },
   {
     "Ressource": "Numpy",
     "Description": "Une bibliothèque Python pour le calcul scientifique, particulièrement pour les tableaux et les matrices multidimensionnelles.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Tableaux",
+      "Matrices",
+      "Calcul scientifique",
+      "Algèbre linéaire",
+      "Statistiques"
+    ],
+    "Ressources liées": {
+      "SciPy": "Bibliothèque Python pour le calcul scientifique et technique, construite sur NumPy, offrant des fonctionnalités avancées de calcul.",
+      "Pandas": "Bibliothèque Python pour la manipulation et l'analyse de données, partageant des notions de tableaux et de statistiques.",
+      "TensorFlow": "Bibliothèque open source pour le calcul numérique et l'apprentissage automatique, partageant des notions de matrices et de calcul scientifique."
+    },
     "IUT": "TRUE",
     "Nom image": "numpy_logo"
   },
   {
     "Ressource": "Figma",
     "Description": "Un outil de design d'interface utilisateur basé sur le web, utilisé pour le prototypage collaboratif et la conception graphique.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Design d'interface utilisateur",
+      "Prototypage",
+      "Collaboration",
+      "Vecteurs",
+      "Composants"
+    ],
+    "Ressources liées": {
+      "Sketch": "Outil de design d'interface utilisateur pour macOS, partageant des notions de design d'interface utilisateur et de prototypage.",
+      "Adobe XD": "Outil de design et de prototypage d'interface utilisateur, partageant des notions de collaboration et de composants.",
+      "InVision": "Plateforme de design de produit pour la collaboration et le prototypage, partageant des notions de prototypage et de collaboration."
+    },
     "IUT": "TRUE",
     "Nom image": "figma_logo"
   },
   {
     "Ressource": "JavaFX",
     "Description": "Une plateforme pour créer et déployer des applications internet riches (RIA) en Java.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Applications internet riches",
+      "Java",
+      "Interface utilisateur",
+      "Multimédia",
+      "Graphiques"
+    ],
+    "Ressources liées": {
+      "Swing": "Bibliothèque Java pour la création d'interfaces utilisateur, partageant des notions de Java et d'interface utilisateur.",
+      "JavaScript": "Langage de programmation utilisé pour créer des applications internet riches, partageant des notions d'applications internet riches et de multimédia.",
+      "Adobe Flash": "Technologie obsolète pour créer des applications internet riches, partageant des notions de multimédia et de graphiques."
+    },
     "IUT": "TRUE",
     "Nom image": "javafx_logo"
   },
   {
     "Ressource": "Git",
     "Description": "Un système de contrôle de version distribué pour suivre les modifications de code source et faciliter le travail collaboratif.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Contrôle de version",
+      "Branches",
+      "Merges",
+      "Commits",
+      "Collaboratif"
+    ],
+    "Ressources liées": {
+      "Mercurial": "Système de contrôle de version distribué, partageant des notions de branches et de merges.",
+      "Subversion (SVN)": "Système de contrôle de version centralisé, partageant des notions de commits et de collaboratif.",
+      "Perforce": "Système de contrôle de version utilisé dans les grandes entreprises, partageant des notions de contrôle de version et de branches."
+    },
     "IUT": "TRUE",
     "Nom image": "git_logo"
   },
   {
     "Ressource": "GitLab",
     "Description": "Une plateforme DevOps basée sur Git pour la gestion du code source, l'intégration continue et le déploiement.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "DevOps",
+      "Intégration continue",
+      "Déploiement",
+      "Gestion de code source",
+      "Collaboratif"
+    ],
+    "Ressources liées": {
+      "GitHub": "Plateforme de développement collaboratif basée sur Git, partageant des notions de gestion de code source et de collaboratif.",
+      "Bitbucket": "Service de gestion de code source et de collaboration, partageant des notions d'intégration continue et de gestion de code source.",
+      "Jenkins": "Serveur d'intégration continue open source, partageant des notions d'intégration continue et de déploiement."
+    },
     "IUT": "TRUE",
     "Nom image": "gitlab_logo"
   },
   {
     "Ressource": "Assembleur",
     "Description": "Un langage de programmation de bas niveau utilisé pour écrire des programmes spécifiques à une architecture matérielle donnée.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Langage de bas niveau",
+      "Instructions",
+      "Registres",
+      "Architecture matérielle",
+      "Optimisation"
+    ],
+    "Ressources liées": {
+      "C": "Langage de programmation de bas niveau utilisé pour le développement de systèmes d'exploitation et de logiciels de bas niveau, partageant des notions d'optimisation et de gestion matérielle.",
+      "Fortran": "Langage de programmation utilisé pour le calcul scientifique et technique, partageant des notions de performance et d'optimisation.",
+      "COBOL": "Langage de programmation utilisé pour les applications commerciales et financières, partageant des notions de gestion matérielle et de performance."
+    },
     "IUT": "TRUE",
-    "Nom image": "?"
+    "Nom image": "assembleur_logo"
   },
   {
     "Ressource": "C",
     "Description": "Un langage de programmation de bas niveau utilisé pour le développement de systèmes d'exploitation, de compilateurs et d'autres logiciels de bas niveau.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Langage de bas niveau",
+      "Pointeurs",
+      "Gestion de la mémoire",
+      "Performance",
+      "Portabilité"
+    ],
+    "Ressources liées": {
+      "C++": "Extension du langage C avec des fonctionnalités de programmation orientée objet, partageant des notions de gestion de la mémoire et de performance.",
+      "Rust": "Langage de programmation moderne conçu pour la sécurité et la performance, partageant des notions de gestion de la mémoire et de performance.",
+      "Objective-C": "Langage de programmation utilisé pour le développement d'applications macOS et iOS, partageant des notions de gestion de la mémoire et de performance."
+    },
     "IUT": "TRUE",
     "Nom image": "c_logo"
   },
   {
     "Ressource": "gcc",
     "Description": "Le compilateur de GNU pour les langages de programmation C, C++, Fortran et autres.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Compilation",
+      "Optimisation",
+      "Langages multiples",
+      "Portabilité",
+      "Performance"
+    ],
+    "Ressources liées": {
+      "Clang": "Compilateur pour les langages C, C++ et Objective-C, connu pour sa modularité et ses diagnostics avancés.",
+      "MSVC": "Compilateur de Microsoft pour les langages C et C++, utilisé principalement pour le développement sur Windows.",
+      "Intel C++ Compiler": "Compilateur optimisé pour les processeurs Intel, offrant des performances élevées pour les applications scientifiques et techniques."
+    },
     "IUT": "TRUE",
     "Nom image": "gcc_compiler_logo"
   },
   {
     "Ressource": "pandas",
     "Description": "Une bibliothèque Python pour la manipulation et l'analyse de données, avec des structures de données puissantes comme DataFrame.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Manipulation de données",
+      "Analyse de données",
+      "DataFrame",
+      "Séries temporelles",
+      "Nettoyage de données"
+    ],
+    "Ressources liées": {
+      "NumPy": "Bibliothèque Python pour le calcul scientifique, offrant des fonctionnalités avancées pour les tableaux et les matrices.",
+      "Dask": "Bibliothèque Python pour le calcul parallèle et distribué, partageant des notions de manipulation de données et de DataFrame.",
+      "R": "Langage de programmation et environnement logiciel pour les statistiques et l'analyse de données, partageant des notions de manipulation et d'analyse de données."
+    },
     "IUT": "TRUE",
     "Nom image": "pandas_logo"
   },
   {
     "Ressource": "geopandas",
     "Description": "Une extension de pandas qui facilite la manipulation et l'analyse de données géospatiales.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Données géospatiales",
+      "Analyse géospatiale",
+      "GeoDataFrame",
+      "Systèmes de coordonnées",
+      "Visualisation géospatiale"
+    ],
+    "Ressources liées": {
+      "Shapely": "Bibliothèque Python pour la manipulation et l'analyse de données géométriques, partageant des notions de données géospatiales et de systèmes de coordonnées.",
+      "Fiona": "Bibliothèque Python pour la lecture et l'écriture de fichiers de formes géospatiales, partageant des notions de données géospatiales et de systèmes de coordonnées.",
+      "QGIS": "Système d'information géographique open source pour la visualisation et l'analyse de données géospatiales, partageant des notions de visualisation et d'analyse géospatiale."
+    },
     "IUT": "TRUE",
     "Nom image": "geopandas_logo"
   },
   {
     "Ressource": "sympy",
     "Description": "Une bibliothèque Python pour l'algèbre symbolique et le calcul formel.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Algèbre symbolique",
+      "Calcul formel",
+      "Équations différentielles",
+      "Intégration",
+      "Simplification"
+    ],
+    "Ressources liées": {
+      "Maxima": "Système de calcul formel open source, partageant des notions d'algèbre symbolique et de calcul formel.",
+      "SageMath": "Système de calcul mathématique open source, intégrant SymPy et d'autres bibliothèques pour le calcul formel.",
+      "Mathematica": "Logiciel de calcul formel et numérique, partageant des notions d'algèbre symbolique et de calcul formel."
+    },
     "IUT": "TRUE",
     "Nom image": "sympy_logo"
   },
   {
     "Ressource": "Mindview",
     "Description": "Un logiciel de cartographie mentale utilisé pour organiser visuellement des idées et des informations.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Cartographie mentale",
+      "Organisation",
+      "Brainstorming",
+      "Visualisation",
+      "Productivité"
+    ],
+    "Ressources liées": {
+      "XMind": "Logiciel de cartographie mentale et de brainstorming, partageant des notions d'organisation et de visualisation.",
+      "MindMeister": "Outil en ligne de cartographie mentale pour la collaboration et l'organisation des idées, partageant des notions de brainstorming et de productivité.",
+      "FreeMind": "Logiciel de cartographie mentale open source, partageant des notions d'organisation et de visualisation."
+    },
     "IUT": "TRUE",
     "Nom image": "mindview_logo"
   },
   {
     "Ressource": "Excel",
     "Description": "Un logiciel de tableur développé par Microsoft pour les calculs, les graphes et l'analyse de données.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Tableur",
+      "Calculs",
+      "Graphiques",
+      "Analyse de données",
+      "Formules"
+    ],
+    "Ressources liées": {
+      "Google Sheets": "Application de tableur en ligne de Google, partageant des notions de calculs et d'analyse de données.",
+      "LibreOffice Calc": "Logiciel de tableur open source faisant partie de la suite LibreOffice, partageant des notions de calculs et de graphiques.",
+      "Numbers": "Logiciel de tableur développé par Apple pour macOS et iOS, partageant des notions de calculs et de graphiques."
+    },
     "IUT": "TRUE",
     "Nom image": "excel_logo"
   },
   {
     "Ressource": "LibreOffice Calc",
     "Description": "Un logiciel de tableur open source faisant partie de la suite LibreOffice, utilisé pour les calculs et l'analyse de données.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Tableur",
+      "Calculs",
+      "Graphiques",
+      "Analyse de données",
+      "Formules"
+    ],
+    "Ressources liées": {
+      "Excel": "Logiciel de tableur développé par Microsoft, partageant des notions de calculs et d'analyse de données.",
+      "Google Sheets": "Application de tableur en ligne de Google, partageant des notions de calculs et d'analyse de données.",
+      "Numbers": "Logiciel de tableur développé par Apple pour macOS et iOS, partageant des notions de calculs et de graphiques."
+    },
     "IUT": "TRUE",
     "Nom image": "libreoffice_logo"
   },
   {
     "Ressource": "Symfony",
     "Description": "Un framework PHP pour le développement d'applications web et de services web.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Framework PHP",
+      "MVC",
+      "Composants réutilisables",
+      "Sécurité",
+      "Performance"
+    ],
+    "Ressources liées": {
+      "Laravel": "Framework PHP pour le développement web, partageant des notions de MVC et de composants réutilisables.",
+      "Zend Framework": "Framework PHP pour le développement d'applications web, partageant des notions de sécurité et de performance.",
+      "CodeIgniter": "Framework PHP léger pour le développement web, partageant des notions de MVC et de performance."
+    },
     "IUT": "TRUE",
     "Nom image": "symfony_logo"
   },
   {
     "Ressource": "PhpStorm",
     "Description": "Un environnement de développement intégré (IDE) pour le développement PHP, offrant des outils complets pour l'édition, le débogage et le test de code.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "IDE",
+      "PHP",
+      "Débogage",
+      "Refactoring",
+      "Tests"
+    ],
+    "Ressources liées": {
+      "NetBeans": "IDE open source pour le développement Java, PHP et autres langages, partageant des notions de débogage et de refactoring.",
+      "Eclipse PDT": "IDE pour le développement PHP basé sur Eclipse, partageant des notions de débogage et de tests.",
+      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages, apprécié pour ses extensions et ses outils de développement PHP."
+    },
     "IUT": "TRUE",
     "Nom image": "phpstorm_logo"
   },
   {
     "Ressource": "CLion",
     "Description": "Un environnement de développement intégré (IDE) pour le développement en C et C++, avec des fonctionnalités avancées de refactoring, de navigation et de débogage.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "IDE",
+      "C",
+      "C++",
+      "Débogage",
+      "Refactoring"
+    ],
+    "Ressources liées": {
+      "Visual Studio": "IDE de Microsoft pour le développement en C, C++ et autres langages, partageant des notions de débogage et de refactoring.",
+      "Eclipse CDT": "IDE pour le développement en C et C++ basé sur Eclipse, partageant des notions de débogage et de navigation.",
+      "Code::Blocks": "IDE open source pour le développement en C et C++, partageant des notions de débogage et de refactoring."
+    },
     "IUT": "TRUE",
     "Nom image": "clion_logo"
   },
   {
     "Ressource": "Eclipse",
-    "Description": "Un environnement de développement intégré (IDE) open source polyvalent, principalement utilisé pour le développement en Java mais extensible à d'autres langages.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un environnement de développement intégré (IDE) open source principalement utilisé pour le développement Java, mais supportant de nombreux autres langages via des plugins.",
+    "Notions clés": [
+      "IDE",
+      "Java",
+      "Plugins",
+      "Débogage",
+      "Refactoring"
+    ],
+    "Ressources liées": {
+      "NetBeans": "IDE open source pour le développement Java, PHP et autres langages, partageant des notions de débogage et de refactoring.",
+      "IntelliJ IDEA": "IDE puissant et ergonomique pour le développement Java, offrant des fonctionnalités avancées de refactoring et de débogage.",
+      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages, apprécié pour ses extensions et ses outils de développement."
+    },
     "IUT": "TRUE",
     "Nom image": "eclipse_logo"
   },
   {
     "Ressource": "Markdown",
-    "Description": "Un langage de balisage léger utilisé pour formater du texte brut avec des éléments comme des en-têtes, des listes et des liens.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un langage de balisage léger utilisé pour formater du texte, souvent utilisé dans les documents et les fichiers README.",
+    "Notions clés": [
+      "Balisage",
+      "Texte",
+      "Formatage",
+      "Simplicité",
+      "Lisibilité"
+    ],
+    "Ressources liées": {
+      "HTML": "Langage de balisage standard utilisé pour créer et structurer les pages web, partageant des notions de balisage et de formatage.",
+      "LaTeX": "Système de composition de documents pour la production de documents scientifiques et techniques, partageant des notions de balisage et de formatage.",
+      "reStructuredText": "Langage de balisage léger utilisé pour formater du texte, souvent utilisé dans la documentation technique, partageant des notions de balisage et de lisibilité."
+    },
     "IUT": "TRUE",
     "Nom image": "markdown_logo"
   },
   {
     "Ressource": "Oracle SQL",
-    "Description": "Un système de gestion de base de données relationnelle (SGDB) développé par Oracle, utilisé pour gérer des données structurées.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un système de gestion de bases de données relationnelles développé par Oracle, utilisé pour stocker et gérer des données structurées.",
+    "Notions clés": [
+      "SQL",
+      "Base de données",
+      "Transactions",
+      "Sécurité",
+      "Performance"
+    ],
+    "Ressources liées": {
+      "Microsoft SQL Server": "Système de gestion de bases de données relationnelles développé par Microsoft, partageant des notions de SQL et de transactions.",
+      "MySQL": "Système de gestion de bases de données relationnelles open source, largement utilisé pour les applications web, partageant des notions de SQL et de performance.",
+      "PostgreSQL": "Système de gestion de bases de données relationnelles open source, connu pour sa robustesse et ses fonctionnalités avancées, partageant des notions de SQL et de sécurité."
+    },
     "IUT": "TRUE",
-    "Nom image": "oracle_logo"
+    "Nom image": "oracle_sql_logo"
   },
   {
     "Ressource": "random",
-    "Description": "Un module Python utilisé pour générer des nombres aléatoires, des sélections aléatoires, et des permutations.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un module Python qui implémente des générateurs de nombres pseudo-aléatoires pour diverses distributions.",
+    "Notions clés": [
+      "Nombres aléatoires",
+      "Distributions",
+      "Simulation",
+      "Statistiques",
+      "Sécurité"
+    ],
+    "Ressources liées": {
+      "numpy.random": "Module de NumPy pour la génération de nombres aléatoires, offrant des fonctionnalités avancées pour les distributions et les simulations.",
+      "secrets": "Module Python pour la génération de nombres aléatoires sécurisés, utilisé pour les mots de passe et les jetons, partageant des notions de sécurité et de nombres aléatoires.",
+      "scipy.stats": "Module de SciPy pour les statistiques et les distributions, offrant des fonctionnalités avancées pour les simulations et les analyses statistiques."
+    },
     "IUT": "TRUE",
-    "Nom image": "?"
+    "Nom image": "random_logo"
   },
   {
     "Ressource": "sys",
-    "Description": "Un module Python qui fournit des fonctions et des variables pour interagir avec l'interpréteur Python.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un module Python qui fournit des fonctions et des variables utilisées pour manipuler différentes parties de l'environnement d'exécution Python.",
+    "Notions clés": [
+      "Environnement d'exécution",
+      "Variables système",
+      "Flux d'entrée/sortie",
+      "Gestion des exceptions",
+      "Modules"
+    ],
+    "Ressources liées": {
+      "os": "Module Python pour interagir avec le système d'exploitation, partageant des notions de gestion des fichiers et des processus.",
+      "platform": "Module Python pour accéder aux informations sur la plateforme et l'environnement d'exécution, partageant des notions de variables système et d'environnement.",
+      "subprocess": "Module Python pour exécuter des sous-processus, partageant des notions de flux d'entrée/sortie et de gestion des processus."
+    },
     "IUT": "TRUE",
-    "Nom image": "?"
+    "Nom image": "sys_logo"
   },
   {
     "Ressource": "argparse",
-    "Description": "Un module Python utilisé pour créer des interfaces en ligne de commande en définissant les arguments que votre programme accepte.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un module Python pour l'analyse des arguments de ligne de commande, permettant de créer des interfaces en ligne de commande conviviales.",
+    "Notions clés": [
+      "Arguments de ligne de commande",
+      "Interface utilisateur",
+      "Options",
+      "Validation",
+      "Documentation"
+    ],
+    "Ressources liées": {
+      "click": "Bibliothèque Python pour créer des interfaces en ligne de commande, partageant des notions d'arguments de ligne de commande et d'options.",
+      "optparse": "Ancien module Python pour l'analyse des arguments de ligne de commande, remplacé par argparse, partageant des notions d'options et de validation.",
+      "docopt": "Bibliothèque Python pour créer des interfaces en ligne de commande basées sur la documentation, partageant des notions d'arguments de ligne de commande et de documentation."
+    },
     "IUT": "TRUE",
-    "Nom image": "?"
+    "Nom image": "argparse_logo"
   },
   {
     "Ressource": "hashlib",
-    "Description": "Un module Python qui fournit des implémentations sécurisées de hachage de messages comme SHA-1, SHA-256, et MD5.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un module Python qui fournit des fonctions de hachage sécurisées pour les messages et les données.",
+    "Notions clés": [
+      "Hachage",
+      "Sécurité",
+      "Intégrité des données",
+      "Algorithmes",
+      "Cryptographie"
+    ],
+    "Ressources liées": {
+      "hmac": "Module Python pour la création de codes d'authentification de message basés sur des hachages, partageant des notions de sécurité et d'intégrité des données.",
+      "cryptography": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées pour le chiffrement et le hachage, partageant des notions de sécurité et de cryptographie.",
+      "hashlib.algorithms_guaranteed": "Liste des algorithmes de hachage garantis disponibles dans hashlib, partageant des notions d'algorithmes et de sécurité."
+    },
     "IUT": "TRUE",
     "Nom image": "hashlib_logo"
   },
   {
     "Ressource": "Canva",
-    "Description": "Un outil de conception graphique en ligne utilisé pour créer des visuels comme des présentations, des affiches, et des publications sur les réseaux sociaux.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un outil de conception graphique en ligne utilisé pour créer des présentations, des affiches, des documents et d'autres contenus visuels.",
+    "Notions clés": [
+      "Conception graphique",
+      "Présentations",
+      "Affiches",
+      "Collaboration",
+      "Templates"
+    ],
+    "Ressources liées": {
+      "Adobe Spark": "Outil de conception graphique en ligne pour créer des graphiques, des pages web et des vidéos courtes, partageant des notions de conception graphique et de collaboration.",
+      "Piktochart": "Outil en ligne pour créer des infographies, des présentations et des rapports, partageant des notions de conception graphique et de templates.",
+      "Visme": "Outil de conception graphique en ligne pour créer des présentations, des infographies et des rapports, partageant des notions de conception graphique et de collaboration."
+    },
     "IUT": "TRUE",
     "Nom image": "canva_logo"
   },
   {
     "Ressource": "UMLetino",
     "Description": "Un outil en ligne pour dessiner des diagrammes UML rapidement et facilement.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "UML",
+      "Diagrammes",
+      "Modélisation",
+      "Conception",
+      "Simplicité"
+    ],
+    "Ressources liées": {
+      "Lucidchart": "Outil en ligne pour créer des diagrammes et des visualisations, partageant des notions de modélisation et de conception.",
+      "Draw.io": "Outil en ligne pour créer des diagrammes et des schémas, partageant des notions de diagrammes et de simplicité.",
+      "StarUML": "Outil de modélisation UML pour la conception de logiciels, partageant des notions de modélisation et de conception."
+    },
     "IUT": "TRUE",
     "Nom image": "umletino_logo"
   },
   {
     "Ressource": "NEmu",
-    "Description": "Un émulateur de réseau pour tester et analyser les protocoles et les configurations réseau.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un émulateur de réseau utilisé pour simuler des réseaux informatiques et tester des configurations réseau.",
+    "Notions clés": [
+      "Émulation de réseau",
+      "Simulation",
+      "Configuration réseau",
+      "Test",
+      "Topologie"
+    ],
+    "Ressources liées": {
+      "GNS3": "Logiciel de simulation de réseau pour concevoir et tester des topologies réseau, partageant des notions de simulation et de configuration réseau.",
+      "Cisco Packet Tracer": "Outil de simulation de réseau développé par Cisco, utilisé pour la formation et la conception de réseaux, partageant des notions de simulation et de test.",
+      "EVE-NG": "Émulateur de réseau pour la conception et le test de topologies réseau, partageant des notions d'émulation de réseau et de configuration réseau."
+    },
     "IUT": "TRUE",
     "Nom image": "nemu_logo"
   },
   {
     "Ressource": "Filius",
-    "Description": "Un logiciel éducatif utilisé pour simuler des réseaux informatiques et enseigner les bases du réseau et de la programmation.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un logiciel éducatif pour simuler des réseaux informatiques et apprendre les concepts de base des réseaux.",
+    "Notions clés": [
+      "Simulation de réseau",
+      "Éducation",
+      "Concepts de réseau",
+      "Topologie",
+      "Protocoles"
+    ],
+    "Ressources liées": {
+      "Wireshark": "Analyseur de protocole réseau utilisé pour capturer et analyser le trafic réseau, partageant des notions de protocoles et de concepts de réseau.",
+      "Packet Tracer": "Outil de simulation de réseau développé par Cisco, utilisé pour la formation et la conception de réseaux, partageant des notions de simulation et de topologie.",
+      "GNS3": "Logiciel de simulation de réseau pour concevoir et tester des topologies réseau, partageant des notions de simulation et de concepts de réseau."
+    },
     "IUT": "TRUE",
     "Nom image": "filius_logo"
   },
   {
     "Ressource": "PyCharm",
-    "Description": "Un environnement de développement intégré (IDE) pour le développement en Python, offrant des outils avancés pour l'édition, le débogage et le test de code.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un environnement de développement intégré (IDE) pour le développement Python, offrant des outils complets pour l'édition, le débogage et le test de code.",
+    "Notions clés": [
+      "IDE",
+      "Python",
+      "Débogage",
+      "Refactoring",
+      "Tests"
+    ],
+    "Ressources liées": {
+      "Thonny": "IDE simple pour Python, conçu pour les débutants avec des fonctionnalités simplifiées pour l'apprentissage et le débogage.",
+      "Spyder": "IDE scientifique pour Python, conçu pour les scientifiques et les ingénieurs, offrant des outils avancés pour l'édition et le débogage.",
+      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages, apprécié pour ses extensions et ses outils de développement Python."
+    },
     "IUT": "TRUE",
     "Nom image": "pycharm_logo"
   },
   {
     "Ressource": "C#",
     "Description": "Un langage de programmation orienté objet développé par Microsoft, principalement utilisé pour développer des applications sur la plateforme .NET.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Programmation orientée objet",
+      "Plateforme .NET",
+      "Langage de haut niveau",
+      "Sécurité",
+      "Interopérabilité"
+    ],
+    "Ressources liées": {
+      "Java": "Langage de programmation orienté objet utilisé pour développer des applications web, mobiles et de bureau, partageant des notions de programmation orientée objet et de sécurité.",
+      "Visual Basic .NET": "Langage de programmation développé par Microsoft pour la plateforme .NET, partageant des notions de programmation orientée objet et d'interopérabilité.",
+      "F#": "Langage de programmation fonctionnel pour la plateforme .NET, partageant des notions de sécurité et d'interopérabilité."
+    },
     "IUT": "TRUE",
     "Nom image": "c_sharp_logo"
   },
   {
     "Ressource": "JavaScript",
     "Description": "Un langage de programmation utilisé principalement pour le développement web, permettant de rendre les pages web interactives et dynamiques.",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Notions clés": [
+      "Langage de script",
+      "Web",
+      "Interactivité",
+      "DOM",
+      "Asynchrone"
+    ],
+    "Ressources liées": {
+      "TypeScript": "Sur-ensemble de JavaScript qui ajoute des types statiques, améliorant la robustesse du code et facilitant la maintenance.",
+      "Node.js": "Environnement d'exécution JavaScript côté serveur, permettant d'utiliser JavaScript pour le développement backend.",
+      "React": "Bibliothèque JavaScript pour construire des interfaces utilisateur, facilitant la création de composants réutilisables et la gestion de l'état des applications web."
+    },
     "IUT": "TRUE",
     "Nom image": "javascript_logo"
   },
   {
     "Ressource": "Ruby",
-    "Description": "TODO",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un langage de programmation interprété, de haut niveau et polyvalent, connu pour sa syntaxe élégante et sa simplicité.",
+    "Notions clés": [
+      "Programmation orientée objet",
+      "Lisibilité",
+      "Flexibilité",
+      "Interprété",
+      "Productivité"
+    ],
+    "Ressources liées": {
+      "Python": "Langage de programmation interprété, connu pour sa lisibilité et sa simplicité, partageant des notions de lisibilité et de productivité avec Ruby.",
+      "Perl": "Langage de programmation interprété, utilisé pour la manipulation de texte et l'administration système, partageant des notions de flexibilité et d'interprétation.",
+      "JavaScript": "Langage de programmation utilisé principalement pour le développement web, partageant des notions de flexibilité et de productivité avec Ruby."
+    },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "ruby_logo"
   },
   {
     "Ressource": "Cobol",
-    "Description": "TODO",
-    "Notions clés": "TODO",
-    "Ressources liées": "TODO",
+    "Description": "Un langage de programmation de haut niveau utilisé principalement pour les applications commerciales et financières.",
+    "Notions clés": [
+      "Applications commerciales",
+      "Gestion de fichiers",
+      "Portabilité",
+      "Performance",
+      "Sécurité"
+    ],
+    "Ressources liées": {
+      "Fortran": "Langage de programmation utilisé pour le calcul scientifique et technique, partageant des notions de performance et de gestion de fichiers.",
+      "Assembler": "Langage de programmation de bas niveau utilisé pour écrire des programmes spécifiques à une architecture matérielle, partageant des notions de performance et de gestion de fichiers.",
+      "PL/I": "Langage de programmation utilisé pour les applications commerciales et scientifiques, partageant des notions de gestion de fichiers et de sécurité."
+    },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "cobol_logo"
   }
 ]
