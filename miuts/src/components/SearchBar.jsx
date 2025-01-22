@@ -52,8 +52,11 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
       if (highlightedIndex >= 0 && highlightedIndex < combinedResults.length) {
         handleSelect(combinedResults[highlightedIndex]);
       }
+      if (combinedResults.length > 0 && highlightedIndex === -1) {
+        handleSelect(combinedResults[0]);
+      }
     } else if (e.key === "Escape") {
-      setIsFocused(false);
+      //setIsFocused(false);
       setHighlightedIndex(-1);
     }
   };
@@ -75,7 +78,11 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
           className="flex-auto text-white rounded border border-solid border-neutral-300 bg-transparent px-3 py-2 text-base text-neutral-700 placeholder-neutral-400 focus:border-blue-500 focus:outline-none focus:ring focus:ring-blue-500"
           placeholder="Ressource, technologie, outil..."
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setIsFocused(true);
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
           onKeyDown={handleKeyDown}
