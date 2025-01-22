@@ -26,9 +26,10 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
       item.Semestre.toString().includes(query)
   );
 
-  const filteredTechnical = technicalSearchable.filter((item) =>
-    item.Ressource.toLowerCase().includes(query.toLowerCase()) ||
-    item.Description.toLowerCase().includes(query.toLowerCase())
+  const filteredTechnical = technicalSearchable.filter(
+    (item) =>
+      item.Ressource.toLowerCase().includes(query.toLowerCase()) ||
+      item.Description.toLowerCase().includes(query.toLowerCase())
   );
 
   const combinedResults = [...filteredIut, ...filteredTechnical];
