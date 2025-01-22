@@ -2,6 +2,9 @@
 
 initial commit
 
+Regroupe un ensemble de ressources liées à l'IUT et l'informatique.
+Ce site vous permet de retrouver vos compétences ou de rechercher quelles sont les technologies aux notions similaires à une autre ressource.
+
 Données :
 - 
 
