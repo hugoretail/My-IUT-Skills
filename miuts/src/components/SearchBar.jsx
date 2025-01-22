@@ -6,30 +6,30 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const resultsRef = useRef(null);
 
-  const iutSearchable = iutData.map((item) => ({
+  const iutContent = iutData.map((item) => ({
     Ressource: item.Ressource,
     Nom: item.Nom,
     Semestre: item.Semestre,
   }));
 
-  const technicalSearchable = technicalRessources.map((item) => ({
+  const technicalContent = technicalRessources.map((item) => ({
     Ressource: item.Ressource,
     Description: item.Description,
     IUT: item.IUT,
     NomImage: item["Nom image"],
+    NotionsCles: item["Notions clés"],
+    RessourcesLiees: item["Ressources liées"],
   }));
 
-  const filteredIut = iutSearchable.filter(
+  const filteredIut = iutContent.filter(
     (item) =>
       item.Ressource.toLowerCase().includes(query.toLowerCase()) ||
       item.Nom.toLowerCase().includes(query.toLowerCase()) ||
       item.Semestre.toString().includes(query)
   );
 
-  const filteredTechnical = technicalSearchable.filter(
-    (item) =>
-      item.Ressource.toLowerCase().includes(query.toLowerCase()) ||
-      item.Description.toLowerCase().includes(query.toLowerCase())
+  const filteredTechnical = technicalContent.filter((item) =>
+    item.Ressource.toLowerCase().includes(query.toLowerCase())
   );
 
   const combinedResults = [...filteredIut, ...filteredTechnical];

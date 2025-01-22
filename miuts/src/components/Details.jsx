@@ -26,6 +26,32 @@ export default function Details({ item }) {
           className="w-12 h-12 mt-2 object-contain"
         />
       )}
+
+      {item.Description && <p>{item.Description}</p>}
+
+      {item.NotionsCles && (
+        <div>
+          <h3 className="text-lg font-semibold mt-4">Notions Clés :</h3>
+          <ul className="mx-8 list-disc list-inside text-left">
+            {item.NotionsCles.map((notion, index) => (
+              <li key={index}>{notion}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {item.RessourcesLiees && (
+        <div>
+          <h3 className="text-lg font-semibold">Ressources Liées :</h3>
+          <ul className="list-disc list-inside">
+            {Object.entries(item.RessourcesLiees).map(([key, value], index) => (
+              <li key={index}>
+                <strong>{key}:</strong> {value}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
