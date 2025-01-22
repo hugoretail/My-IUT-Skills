@@ -14,6 +14,7 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
 
   const technicalSearchable = technicalRessources.map((item) => ({
     Ressource: item.Ressource,
+    Description: item.Description,
     IUT: item.IUT,
     NomImage: item["Nom image"],
   }));
@@ -26,7 +27,8 @@ const Searchbar = ({ iutData, technicalRessources, onSelect }) => {
   );
 
   const filteredTechnical = technicalSearchable.filter((item) =>
-    item.Ressource.toLowerCase().includes(query.toLowerCase())
+    item.Ressource.toLowerCase().includes(query.toLowerCase()) ||
+    item.Description.toLowerCase().includes(query.toLowerCase)
   );
 
   const combinedResults = [...filteredIut, ...filteredTechnical];
