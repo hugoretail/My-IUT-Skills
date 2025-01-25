@@ -231,7 +231,7 @@
       "SymPy": "Bibliothèque Python pour l'algèbre symbolique et le calcul formel, offrant des fonctionnalités avancées de manipulation mathématique."
     },
     "IUT": "TRUE",
-    "Nom image": "math_logo"
+    "Nom image": ""
   },
   {
     "Ressource": "matplotlib",
@@ -356,7 +356,7 @@
       "COBOL": "Langage de programmation utilisé pour les applications commerciales et financières, partageant des notions de gestion matérielle et de performance."
     },
     "IUT": "TRUE",
-    "Nom image": "?"
+    "Nom image": ""
   },
   {
     "Ressource": "C",
@@ -626,7 +626,7 @@
       "scipy.stats": "Module de SciPy pour les statistiques et les distributions, offrant des fonctionnalités avancées pour les simulations et les analyses statistiques."
     },
     "IUT": "TRUE",
-    "Nom image": "random_logo"
+    "Nom image": ""
   },
   {
     "Ressource": "sys",
@@ -644,7 +644,7 @@
       "subprocess": "Module Python pour exécuter des sous-processus, partageant des notions de flux d'entrée/sortie et de gestion des processus."
     },
     "IUT": "TRUE",
-    "Nom image": "sys_logo"
+    "Nom image": ""
   },
   {
     "Ressource": "argparse",
@@ -662,7 +662,7 @@
       "docopt": "Bibliothèque Python pour créer des interfaces en ligne de commande basées sur la documentation, partageant des notions d'arguments de ligne de commande et de documentation."
     },
     "IUT": "TRUE",
-    "Nom image": "argparse_logo"
+    "Nom image": ""
   },
   {
     "Ressource": "hashlib",

@@ -19,7 +19,7 @@ export default function Details({ item }) {
 
       {item.IUT === "TRUE" && <p className="text-sm text-gray-400">(IUT)</p>}
 
-      {item.NomImage && item.NomImage !== "?" && (
+      {item.NomImage && (
         <img
           src={`/logo/${item.NomImage}.webp`}
           alt={item.Ressource}
