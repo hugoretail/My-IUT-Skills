@@ -21,6 +21,7 @@
     "Ressource": "Netbeans",
     "Description": "Un environnement de développement intégré (IDE) open source qui prend en charge le développement d'applications Java, PHP, HTML5 et C++.",
     "Notions clés": [
+      "IDE",
       "Débogage",
       "Refactoring",
       "Support multi-langages",
@@ -43,7 +44,8 @@
       "Attributs",
       "Formulaires",
       "Multimédia",
-      "Sémantique"
+      "Sémantique",
+      "Accessibilité"
     ],
     "Ressources liées": {
       "Markdown": "Langage de balisage léger utilisé pour formater du texte. Utilisé dans les documents et les fichiers README, il partage des concepts de structuration de contenu avec HTML.",
@@ -61,7 +63,8 @@
       "Box model",
       "Flexbox",
       "Grid",
-      "Animations"
+      "Animations",
+      "Responsive design"
     ],
     "Ressources liées": {
       "Sass": "Préprocesseur CSS qui ajoute des fonctionnalités comme les variables et les mixins. Il améliore la productivité en permettant une écriture plus concise et maintenable des styles.",
@@ -87,7 +90,7 @@
       "Brackets": "Éditeur de texte open source principalement utilisé pour le développement web, avec des fonctionnalités de prévisualisation en direct."
     },
     "IUT": "TRUE",
-    "Nom image": "visual_studio_code_logo"
+    "Nom image": "vscode_logo"
   },
   {
     "Ressource": "Thonny",
@@ -100,7 +103,6 @@
       "Apprentissage"
     ],
     "Ressources liées": {
-      "IDLE": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants.",
       "Mu Editor": "Éditeur de texte simple pour Python, conçu pour les débutants et les enseignants.",
       "PyCharm Edu": "Version éducative de PyCharm, offrant des fonctionnalités simplifiées pour l'apprentissage du Python."
     },
@@ -114,8 +116,7 @@
       "Framework CSS",
       "Réactivité",
       "Composants",
-      "Grille",
-      "Personnalisation"
+      "Grille"
     ],
     "Ressources liées": {
       "Foundation": "Framework CSS réactif et avancé, offrant des outils pour créer des sites web et des applications.",
@@ -167,9 +168,8 @@
     "Notions clés": [
       "Base de données",
       "SQL",
-      "Transactions",
-      "Sécurité",
-      "Performance"
+      "Procédures stockées",
+      "Index"
     ],
     "Ressources liées": {
       "Oracle Database": "Système de gestion de bases de données relationnelles développé par Oracle, offrant des fonctionnalités avancées de gestion des données.",
@@ -240,7 +240,6 @@
       "Visualisation de données",
       "Graphiques",
       "Plots",
-      "Personnalisation",
       "Interactivité"
     ],
     "Ressources liées": {
@@ -357,7 +356,7 @@
       "COBOL": "Langage de programmation utilisé pour les applications commerciales et financières, partageant des notions de gestion matérielle et de performance."
     },
     "IUT": "TRUE",
-    "Nom image": "assembleur_logo"
+    "Nom image": "?"
   },
   {
     "Ressource": "C",
