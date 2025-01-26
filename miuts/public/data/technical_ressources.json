@@ -6,8 +6,7 @@
       "Programmation orientée objet",
       "Portabilité",
       "Garbage collection",
-      "API riche",
-      "Sécurité"
+      "API riche"
     ],
     "Ressources liées": {
       "Python": "Langage de programmation interprété, connu pour sa lisibilité et sa simplicité. Comme Java, il est utilisé dans le développement web et scientifique, et partage des concepts de programmation orientée objet.",
@@ -843,5 +842,40 @@
     },
     "IUT": "FALSE",
     "Nom image": "cobol_logo"
+  },
+  {
+    "Ressource": "Kotlin",
+    "Description": "Un langage de programmation moderne et concis, entièrement interopérable avec Java, souvent utilisé pour le développement Android.",
+    "Notions clés": [
+      "Interopérabilité",
+      "Concision",
+      "Programmation orientée objet",
+      "Programmation fonctionnelle"
+    ],
+    "Ressources liées": {
+      "Java": "Langage de programmation orienté objet utilisé pour développer des applications web, mobiles et de bureau, partageant des notions de programmation orientée objet et de sécurité.",
+      "Swift": "Langage de programmation développé par Apple pour le développement d'applications iOS et macOS, partageant des notions de concision et de sécurité.",
+      "Scala": "Langage de programmation qui combine des concepts de programmation orientée objet et fonctionnelle, partageant des notions de concision et de programmation fonctionnelle."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "IntelliJ IDEA",
+    "Description": "Un environnement de développement intégré (IDE) pour le développement Java, offrant des outils avancés pour l'édition, le débogage et le test de code.",
+    "Notions clés": [
+      "IDE",
+      "Refactoring",
+      "Débogage",
+      "Productivité",
+      "Intégration continue"
+    ],
+    "Ressources liées": {
+      "Eclipse": "IDE open source principalement utilisé pour le développement Java, partageant des notions de refactoring et de débogage.",
+      "NetBeans": "IDE open source qui prend en charge le développement d'applications Java, PHP, HTML5 et C++, partageant des notions de débogage et de productivité.",
+      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages, apprécié pour ses extensions et ses outils de développement."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
   }
 ]
