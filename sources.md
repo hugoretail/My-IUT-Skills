@@ -191,4 +191,12 @@
 
 ## Kotlin
 
--
+- [Cotlin Official Website](https://kotlinlang.org/)
+
+## IntelliJ IDEA
+
+- [Jetbrains / IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
+## XML
+
+- [Wikipedia XML Page](https://fr.wikipedia.org/wiki/Extensible_Markup_Language)

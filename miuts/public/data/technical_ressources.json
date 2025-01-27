@@ -308,9 +308,6 @@
     "Description": "Un système de contrôle de version distribué pour suivre les modifications de code source et faciliter le travail collaboratif.",
     "Notions clés": [
       "Contrôle de version",
-      "Branches",
-      "Merges",
-      "Commits",
       "Collaboratif"
     ],
     "Ressources liées": {
@@ -877,5 +874,21 @@
     },
     "IUT": "FALSE",
     "Nom image": "?"
+  },
+  {
+    "Ressource": "XML",
+    "Description": "Le langage XML, dit « langage de balisage extensible », permet de définir différents langages (XHTML, XSLT, RSS...) afin de faciliter l'échange automatisé de contenus complexes entres systèmes d'informations interopérables.",
+    "Notions clés": [
+      "TODO",
+      "TODO"
+    ],
+    "Ressources liées": {
+      "TODOO": "TOTODOO",
+      "TODO": "TODO"
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
   }
+
+
 ]
