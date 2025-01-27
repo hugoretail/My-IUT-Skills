@@ -190,8 +190,7 @@
     ],
     "Ressources liées": {
       "ER/Studio": "Outil de modélisation de données pour la conception et la gestion des bases de données.",
-      "IBM InfoSphere Data Architect": "Outil de modélisation de données pour la conception et l'intégration des bases de données.",
-      "Toad Data Modeler": "Outil de modélisation de données pour la conception et la gestion des bases de données, offrant des fonctionnalités avancées de modélisation."
+      "IBM InfoSphere Data Architect": "Outil de modélisation de données pour la conception et l'intégration des bases de données."
     },
     "IUT": "TRUE",
     "Nom image": "win_design_logo"
@@ -1177,6 +1176,222 @@
       "iTerm2": "Terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue.",
       "Command Prompt": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts.",
       "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Oracle Database",
+    "Description": "Un système de gestion de bases de données relationnelles développé par Oracle, offrant des fonctionnalités avancées de gestion des données.",
+    "Notions clés": [
+      "Base de données",
+      "SQL",
+      "Transactions",
+      "Sécurité",
+      "Performance"
+    ],
+    "Ressources liées": {
+      "Microsoft SQL Server": "Système de gestion de bases de données relationnelles développé par Microsoft, partageant des notions de SQL et de transactions.",
+      "MySQL": "Système de gestion de bases de données relationnelles open source, largement utilisé pour les applications web.",
+      "PostgreSQL": "Système de gestion de bases de données relationnelles open source, connu pour sa robustesse et ses fonctionnalités avancées."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "MySQL",
+    "Description": "Un système de gestion de bases de données relationnelles open source, largement utilisé pour les applications web.",
+    "Notions clés": [
+      "Base de données",
+      "SQL",
+      "Transactions",
+      "Performance",
+      "Open source"
+    ],
+    "Ressources liées": {
+      "Oracle Database": "Système de gestion de bases de données relationnelles développé par Oracle, offrant des fonctionnalités avancées de gestion des données.",
+      "PostgreSQL": "Système de gestion de bases de données relationnelles open source, connu pour sa robustesse et ses fonctionnalités avancées.",
+      "SQLite": "Système de gestion de bases de données relationnelles léger et intégré, souvent utilisé pour les applications mobiles et embarquées."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "PostgreSQL",
+    "Description": "Un système de gestion de bases de données relationnelles open source, connu pour sa robustesse et ses fonctionnalités avancées.",
+    "Notions clés": [
+      "Base de données",
+      "SQL",
+      "Transactions",
+      "Sécurité",
+      "Performance"
+    ],
+    "Ressources liées": {
+      "Oracle Database": "Système de gestion de bases de données relationnelles développé par Oracle, offrant des fonctionnalités avancées de gestion des données.",
+      "MySQL": "Système de gestion de bases de données relationnelles open source, largement utilisé pour les applications web.",
+      "MongoDB": "Base de données NoSQL orientée documents, offrant des fonctionnalités avancées pour le stockage et la gestion des données non structurées."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "ER/Studio",
+    "Description": "Un outil de modélisation de données pour la conception et la gestion des bases de données.",
+    "Notions clés": [
+      "Modélisation de données",
+      "Conception de bases de données",
+      "Diagrammes",
+      "Gestion des données",
+      "Documentation"
+    ],
+    "Ressources liées": {
+      "IBM InfoSphere Data Architect": "Outil de modélisation de données pour la conception et l'intégration des bases de données.",
+      "Toad Data Modeler": "Outil de modélisation de données pour la conception et la gestion des bases de données, offrant des fonctionnalités avancées de modélisation.",
+      "WinDesign": "Outil de modélisation pour la conception de bases de données et de systèmes d'information."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "IBM InfoSphere Data Architect",
+    "Description": "Un outil de modélisation de données pour la conception et l'intégration des bases de données.",
+    "Notions clés": [
+      "Modélisation de données",
+      "Conception de bases de données",
+      "Intégration des données",
+      "Diagrammes",
+      "Documentation"
+    ],
+    "Ressources liées": {
+      "ER/Studio": "Outil de modélisation de données pour la conception et la gestion des bases de données.",
+      "Toad Data Modeler": "Outil de modélisation de données pour la conception et la gestion des bases de données, offrant des fonctionnalités avancées de modélisation.",
+      "WinDesign": "Outil de modélisation pour la conception de bases de données et de systèmes d'information."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Perl",
+    "Description": "Un langage de programmation interprété, utilisé pour la manipulation de texte et l'administration système.",
+    "Notions clés": [
+      "Manipulation de texte",
+      "Administration système",
+      "Interprété",
+      "Polyvalence",
+      "Scripts"
+    ],
+    "Ressources liées": {
+      "Python": "Langage de programmation interprété, connu pour sa lisibilité et sa simplicité, souvent utilisé pour la manipulation de texte et l'administration système.",
+      "Ruby": "Langage de programmation interprété, connu pour sa syntaxe élégante et sa simplicité, partageant des notions de polyvalence et de scripts.",
+      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système, partageant des notions de scripts et d'administration système."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "NumPy",
+    "Description": "Une bibliothèque Python pour le calcul scientifique, particulièrement pour les tableaux et les matrices multidimensionnelles.",
+    "Notions clés": [
+      "Tableaux",
+      "Matrices",
+      "Calcul scientifique",
+      "Algèbre linéaire",
+      "Statistiques"
+    ],
+    "Ressources liées": {
+      "SciPy": "Bibliothèque Python pour le calcul scientifique et technique, construite sur NumPy, offrant des fonctionnalités avancées de calcul.",
+      "Pandas": "Bibliothèque Python pour la manipulation et l'analyse de données, partageant des notions de tableaux et de statistiques.",
+      "TensorFlow": "Bibliothèque open source pour le calcul numérique et l'apprentissage automatique, partageant des notions de matrices et de calcul scientifique."
+    },
+    "IUT": "TRUE",
+    "Nom image": "numpy_logo"
+  },
+  {
+    "Ressource": "SciPy",
+    "Description": "Une bibliothèque Python pour le calcul scientifique et technique, construite sur NumPy, offrant des fonctionnalités avancées de calcul.",
+    "Notions clés": [
+      "Calcul scientifique",
+      "Algèbre linéaire",
+      "Optimisation",
+      "Statistiques",
+      "Traitement du signal"
+    ],
+    "Ressources liées": {
+      "NumPy": "Bibliothèque Python pour le calcul scientifique, particulièrement pour les tableaux et les matrices multidimensionnelles.",
+      "SymPy": "Bibliothèque Python pour l'algèbre symbolique et le calcul formel, offrant des fonctionnalités avancées de manipulation mathématique.",
+      "Matplotlib": "Bibliothèque Python pour créer des visualisations de données statiques, animées et interactives, souvent utilisée avec SciPy pour visualiser les résultats des calculs."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "SymPy",
+    "Description": "Une bibliothèque Python pour l'algèbre symbolique et le calcul formel.",
+    "Notions clés": [
+      "Algèbre symbolique",
+      "Calcul formel",
+      "Équations différentielles",
+      "Intégration",
+      "Simplification"
+    ],
+    "Ressources liées": {
+      "Maxima": "Système de calcul formel open source, partageant des notions d'algèbre symbolique et de calcul formel.",
+      "SageMath": "Système de calcul mathématique open source, intégrant SymPy et d'autres bibliothèques pour le calcul formel.",
+      "Mathematica": "Logiciel de calcul formel et numérique, partageant des notions d'algèbre symbolique et de calcul formel."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Seaborn",
+    "Description": "Une bibliothèque Python pour la visualisation de données basée sur Matplotlib, offrant des graphiques statistiques attractifs.",
+    "Notions clés": [
+      "Visualisation de données",
+      "Graphiques statistiques",
+      "Matplotlib",
+      "Esthétique",
+      "Facilité d'utilisation"
+    ],
+    "Ressources liées": {
+      "Matplotlib": "Bibliothèque Python pour créer des visualisations de données statiques, animées et interactives, souvent utilisée avec Seaborn pour personnaliser les graphiques.",
+      "Plotly": "Bibliothèque Python pour la création de graphiques interactifs et de visualisations de données, offrant des fonctionnalités avancées d'interactivité.",
+      "Bokeh": "Bibliothèque Python pour la création de visualisations interactives et web, offrant des fonctionnalités avancées de personnalisation et d'interactivité."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Plotly",
+    "Description": "Une bibliothèque Python pour la création de graphiques interactifs et de visualisations de données.",
+    "Notions clés": [
+      "Visualisation de données",
+      "Graphiques interactifs",
+      "Web",
+      "Personnalisation",
+      "Facilité d'utilisation"
+    ],
+    "Ressources liées": {
+      "Matplotlib": "Bibliothèque Python pour créer des visualisations de données statiques, animées et interactives, souvent utilisée avec Plotly pour personnaliser les graphiques.",
+      "Seaborn": "Bibliothèque Python pour la visualisation de données basée sur Matplotlib, offrant des graphiques statistiques attractifs.",
+      "Bokeh": "Bibliothèque Python pour la création de visualisations interactives et web, offrant des fonctionnalités avancées de personnalisation et d'interactivité."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Bokeh",
+    "Description": "Une bibliothèque Python pour la création de visualisations interactives et web, offrant des fonctionnalités avancées de personnalisation et d'interactivité.",
+    "Notions clés": [
+      "Visualisation de données",
+      "Graphiques interactifs",
+      "Web",
+      "Personnalisation",
+      "Interactivité"
+    ],
+    "Ressources liées": {
+      "Matplotlib": "Bibliothèque Python pour créer des visualisations de données statiques, animées et interactives, souvent utilisée avec Bokeh pour personnaliser les graphiques.",
+      "Seaborn": "Bibliothèque Python pour la visualisation de données basée sur Matplotlib, offrant des graphiques statistiques attractifs.",
+      "Plotly": "Bibliothèque Python pour la création de graphiques interactifs et de visualisations de données, offrant des fonctionnalités avancées d'interactivité."
     },
     "IUT": "FALSE",
     "Nom image": "?"
