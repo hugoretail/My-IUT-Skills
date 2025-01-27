@@ -11,6 +11,9 @@ Logos manquants :
 - Oracle SQL
 - Python
 - Cobol
+- Kotlin
+- IntelliJ IDEA
+- XML
 
 Données :
 

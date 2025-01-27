@@ -877,18 +877,164 @@
   },
   {
     "Ressource": "XML",
-    "Description": "Le langage XML, dit « langage de balisage extensible », permet de définir différents langages (XHTML, XSLT, RSS...) afin de faciliter l'échange automatisé de contenus complexes entres systèmes d'informations interopérables.",
+    "Description": "Un langage de balisage extensible utilisé pour structurer, stocker et transporter des données.",
     "Notions clés": [
-      "TODO",
-      "TODO"
+      "Éléments",
+      "Attributs",
+      "Arborescence",
+      "Validation",
+      "Namespaces"
     ],
     "Ressources liées": {
-      "TODOO": "TOTODOO",
-      "TODO": "TODO"
+      "HTML": "Langage de balisage standard utilisé pour créer et structurer les pages web, partageant des notions d'éléments et d'attributs.",
+      "JSON": "Format de données léger utilisé pour l'échange de données, souvent comparé à XML pour sa simplicité et son efficacité.",
+      "XSLT": "Langage de transformation XML utilisé pour transformer des documents XML en d'autres formats, partageant des notions de structuration et de transformation de données."
     },
     "IUT": "FALSE",
     "Nom image": "?"
+  },
+  {
+    "Ressource": "SVG",
+    "Description": "Un format de fichier XML utilisé pour décrire des graphiques vectoriels, souvent utilisé pour afficher des graphiques et des illustrations sur le web.",
+    "Notions clés": [
+      "Graphiques vectoriels",
+      "XML",
+      "Scalabilité",
+      "Animations",
+      "Interactivité"
+    ],
+    "Ressources liées": {
+      "Canvas": "Élément HTML utilisé pour dessiner des graphiques via des scripts JavaScript, partageant des notions de graphiques vectoriels et d'interactivité.",
+      "CSS": "Langage de feuille de style utilisé pour décrire l'apparence des documents HTML, souvent utilisé pour styliser les éléments SVG, partageant des notions d'animations et d'interactivité.",
+      "Inkscape": "Éditeur de graphiques vectoriels open source, utilisé pour créer et éditer des fichiers SVG, partageant des notions de graphiques vectoriels et de scalabilité."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Sass",
+    "Description": "Un préprocesseur CSS qui ajoute des fonctionnalités comme les variables, les mixins et les fonctions, facilitant la gestion des styles.",
+    "Notions clés": [
+      "Préprocesseur CSS",
+      "Variables",
+      "Mixins",
+      "Nesting",
+      "Fonctions"
+    ],
+    "Ressources liées": {
+      "Less": "Un autre préprocesseur CSS qui offre des fonctionnalités similaires à Sass, comme les variables et les mixins.",
+      "Stylus": "Préprocesseur CSS flexible et puissant, offrant des fonctionnalités avancées pour la gestion des styles.",
+      "PostCSS": "Outil de transformation CSS qui utilise des plugins pour étendre les fonctionnalités de CSS, souvent utilisé avec des préprocesseurs comme Sass."
+    },
+    "IUT": "TRUE",
+    "Nom image": "sass_logo"
+  },
+  {
+    "Ressource": "Tailwind CSS",
+    "Description": "Un framework CSS utilitaire pour créer des interfaces utilisateur rapidement, permettant de composer des classes utilitaires pour appliquer des styles directement dans le HTML.",
+    "Notions clés": [
+      "Framework CSS",
+      "Classes utilitaires",
+      "Réactivité",
+      "Personnalisation",
+      "Productivité"
+    ],
+    "Ressources liées": {
+      "Bootstrap": "Framework CSS populaire pour la création de sites web réactifs, offrant des composants pré-stylisés et des grilles.",
+      "Bulma": "Framework CSS moderne basé sur Flexbox, offrant des composants réactifs et faciles à utiliser.",
+      "Foundation": "Framework CSS réactif et avancé, offrant des outils pour créer des sites web et des applications."
+    },
+    "IUT": "TRUE",
+    "Nom image": "tailwind_css_logo"
+  },
+  {
+    "Ressource": "Sublime Text",
+    "Description": "Un éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités.",
+    "Notions clés": [
+      "Éditeur de texte",
+      "Rapidité",
+      "Plugins",
+      "Multi-sélection",
+      "Interface utilisateur"
+    ],
+    "Ressources liées": {
+      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages et apprécié pour ses extensions.",
+      "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
+      "Notepad++": "Éditeur de texte pour Windows, offrant des fonctionnalités avancées pour l'édition de code."
+    },
+    "IUT": "TRUE",
+    "Nom image": "sublime_text_logo"
+  },
+  {
+    "Ressource": "Atom",
+    "Description": "Un éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
+    "Notions clés": [
+      "Éditeur de texte",
+      "Open source",
+      "Personnalisation",
+      "Extensions",
+      "Interface utilisateur"
+    ],
+    "Ressources liées": {
+      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages et apprécié pour ses extensions.",
+      "Sublime Text": "Éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités.",
+      "Brackets": "Éditeur de texte open source principalement utilisé pour le développement web, avec des fonctionnalités de prévisualisation en direct."
+    },
+    "IUT": "TRUE",
+    "Nom image": "atom_logo"
+  },
+  {
+    "Ressource": "Brackets",
+    "Description": "Un éditeur de texte open source principalement utilisé pour le développement web, avec des fonctionnalités de prévisualisation en direct.",
+    "Notions clés": [
+      "Éditeur de texte",
+      "Développement web",
+      "Open source",
+      "Prévisualisation en direct",
+      "Extensions"
+    ],
+    "Ressources liées": {
+      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages et apprécié pour ses extensions.",
+      "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
+      "Sublime Text": "Éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités."
+    },
+    "IUT": "TRUE",
+    "Nom image": "brackets_logo"
+  },
+  {
+    "Ressource": "Mu Editor",
+    "Description": "Un éditeur de texte simple pour Python, conçu pour les débutants et les enseignants.",
+    "Notions clés": [
+      "Éditeur de texte",
+      "Python",
+      "Simplicité",
+      "Débutants",
+      "Enseignement"
+    ],
+    "Ressources liées": {
+      "Thonny": "IDE simple pour Python, conçu pour les débutants avec des fonctionnalités simplifiées pour l'apprentissage et le débogage.",
+      "IDLE": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants.",
+      "PyCharm Edu": "Version éducative de PyCharm, offrant des fonctionnalités simplifiées pour l'apprentissage du Python."
+    },
+    "IUT": "TRUE",
+    "Nom image": "mu_editor_logo"
+  },
+  {
+    "Ressource": "PyCharm Edu",
+    "Description": "Version éducative de PyCharm, offrant des fonctionnalités simplifiées pour l'apprentissage du Python.",
+    "Notions clés": [
+      "IDE",
+      "Python",
+      "Éducation",
+      "Débogage",
+      "Refactoring"
+    ],
+    "Ressources liées": {
+      "Thonny": "IDE simple pour Python, conçu pour les débutants avec des fonctionnalités simplifiées pour l'apprentissage et le débogage.",
+      "Mu Editor": "Éditeur de texte simple pour Python, conçu pour les débutants et les enseignants.",
+      "IDLE": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants."
+    },
+    "IUT": "TRUE",
+    "Nom image": "pycharm_edu_logo"
   }
-
-
 ]
