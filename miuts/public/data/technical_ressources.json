@@ -926,8 +926,8 @@
       "Stylus": "Préprocesseur CSS flexible et puissant, offrant des fonctionnalités avancées pour la gestion des styles.",
       "PostCSS": "Outil de transformation CSS qui utilise des plugins pour étendre les fonctionnalités de CSS, souvent utilisé avec des préprocesseurs comme Sass."
     },
-    "IUT": "TRUE",
-    "Nom image": "sass_logo"
+    "IUT": "FALSE",
+    "Nom image": "?"
   },
   {
     "Ressource": "Tailwind CSS",
@@ -944,8 +944,8 @@
       "Bulma": "Framework CSS moderne basé sur Flexbox, offrant des composants réactifs et faciles à utiliser.",
       "Foundation": "Framework CSS réactif et avancé, offrant des outils pour créer des sites web et des applications."
     },
-    "IUT": "TRUE",
-    "Nom image": "tailwind_css_logo"
+    "IUT": "FALSE",
+    "Nom image": "?"
   },
   {
     "Ressource": "Sublime Text",
@@ -962,8 +962,8 @@
       "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
       "Notepad++": "Éditeur de texte pour Windows, offrant des fonctionnalités avancées pour l'édition de code."
     },
-    "IUT": "TRUE",
-    "Nom image": "sublime_text_logo"
+    "IUT": "FALSE",
+    "Nom image": "?"
   },
   {
     "Ressource": "Atom",
@@ -980,8 +980,8 @@
       "Sublime Text": "Éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités.",
       "Brackets": "Éditeur de texte open source principalement utilisé pour le développement web, avec des fonctionnalités de prévisualisation en direct."
     },
-    "IUT": "TRUE",
-    "Nom image": "atom_logo"
+    "IUT": "FALSE",
+    "Nom image": "?"
   },
   {
     "Ressource": "Brackets",
@@ -998,8 +998,8 @@
       "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
       "Sublime Text": "Éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités."
     },
-    "IUT": "TRUE",
-    "Nom image": "brackets_logo"
+    "IUT": "FALSE",
+    "Nom image": "?"
   },
   {
     "Ressource": "Mu Editor",
@@ -1016,8 +1016,8 @@
       "IDLE": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants.",
       "PyCharm Edu": "Version éducative de PyCharm, offrant des fonctionnalités simplifiées pour l'apprentissage du Python."
     },
-    "IUT": "TRUE",
-    "Nom image": "mu_editor_logo"
+    "IUT": "FALSE",
+    "Nom image": "?"
   },
   {
     "Ressource": "PyCharm Edu",
@@ -1034,7 +1034,151 @@
       "Mu Editor": "Éditeur de texte simple pour Python, conçu pour les débutants et les enseignants.",
       "IDLE": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants."
     },
-    "IUT": "TRUE",
-    "Nom image": "pycharm_edu_logo"
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Foundation",
+    "Description": "Un framework CSS réactif et avancé, offrant des outils pour créer des sites web et des applications.",
+    "Notions clés": [
+      "Framework CSS",
+      "Réactivité",
+      "Composants",
+      "Grille",
+      "Accessibilité"
+    ],
+    "Ressources liées": {
+      "Bootstrap": "Framework CSS populaire pour la création de sites web réactifs, offrant des composants pré-stylisés et des grilles.",
+      "Bulma": "Framework CSS moderne basé sur Flexbox, offrant des composants réactifs et faciles à utiliser.",
+      "Tailwind CSS": "Framework CSS utilitaire pour créer des interfaces utilisateur rapidement, permettant de composer des classes utilitaires pour appliquer des styles directement dans le HTML."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Bulma",
+    "Description": "Un framework CSS moderne basé sur Flexbox, offrant des composants réactifs et faciles à utiliser.",
+    "Notions clés": [
+      "Framework CSS",
+      "Flexbox",
+      "Réactivité",
+      "Composants",
+      "Simplicité"
+    ],
+    "Ressources liées": {
+      "Bootstrap": "Framework CSS populaire pour la création de sites web réactifs, offrant des composants pré-stylisés et des grilles.",
+      "Foundation": "Framework CSS réactif et avancé, offrant des outils pour créer des sites web et des applications.",
+      "Tailwind CSS": "Framework CSS utilitaire pour créer des interfaces utilisateur rapidement, permettant de composer des classes utilitaires pour appliquer des styles directement dans le HTML."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Zsh",
+    "Description": "Un shell Unix avec des fonctionnalités avancées et une personnalisation étendue, souvent utilisé comme alternative à Bash.",
+    "Notions clés": [
+      "Shell Unix",
+      "Personnalisation",
+      "Scripting",
+      "Productivité",
+      "Extensions"
+    ],
+    "Ressources liées": {
+      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système.",
+      "Fish": "Shell Unix interactif et convivial, offrant des fonctionnalités modernes et une syntaxe simplifiée.",
+      "PowerShell": "Shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Fish",
+    "Description": "Un shell Unix interactif et convivial, offrant des fonctionnalités modernes et une syntaxe simplifiée.",
+    "Notions clés": [
+      "Shell Unix",
+      "Interactivité",
+      "Simplicité",
+      "Scripting",
+      "Productivité"
+    ],
+    "Ressources liées": {
+      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système.",
+      "Zsh": "Shell Unix avec des fonctionnalités avancées et une personnalisation étendue, souvent utilisé comme alternative à Bash.",
+      "PowerShell": "Shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "PowerShell",
+    "Description": "Un shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows.",
+    "Notions clés": [
+      "Shell",
+      "Scripting",
+      "Automatisation",
+      "Gestion du système",
+      "Cmdlets"
+    ],
+    "Ressources liées": {
+      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système.",
+      "Zsh": "Shell Unix avec des fonctionnalités avancées et une personnalisation étendue, souvent utilisé comme alternative à Bash.",
+      "Command Prompt": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "Command Prompt",
+    "Description": "Une interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts.",
+    "Notions clés": [
+      "Ligne de commande",
+      "Windows",
+      "Scripting",
+      "Automatisation",
+      "Gestion du système"
+    ],
+    "Ressources liées": {
+      "PowerShell": "Shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows.",
+      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système.",
+      "iTerm2": "Terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "iTerm2",
+    "Description": "Un terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue.",
+    "Notions clés": [
+      "Terminal",
+      "macOS",
+      "Personnalisation",
+      "Automatisation",
+      "Gestion du système"
+    ],
+    "Ressources liées": {
+      "Command Prompt": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts.",
+      "GNOME Terminal": "Terminal pour les environnements de bureau GNOME sous Linux, offrant des fonctionnalités de base et avancées pour l'interaction avec le système.",
+      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
+  },
+  {
+    "Ressource": "GNOME Terminal",
+    "Description": "Un terminal pour les environnements de bureau GNOME sous Linux, offrant des fonctionnalités de base et avancées pour l'interaction avec le système.",
+    "Notions clés": [
+      "Terminal",
+      "Linux",
+      "GNOME",
+      "Automatisation",
+      "Gestion du système"
+    ],
+    "Ressources liées": {
+      "iTerm2": "Terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue.",
+      "Command Prompt": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts.",
+      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système."
+    },
+    "IUT": "FALSE",
+    "Nom image": "?"
   }
 ]
