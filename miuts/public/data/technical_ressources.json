@@ -615,9 +615,7 @@
       "Sécurité"
     ],
     "Ressources liées": {
-      "numpy.random": "Module de NumPy pour la génération de nombres aléatoires, offrant des fonctionnalités avancées pour les distributions et les simulations.",
-      "secrets": "Module Python pour la génération de nombres aléatoires sécurisés, utilisé pour les mots de passe et les jetons, partageant des notions de sécurité et de nombres aléatoires.",
-      "scipy.stats": "Module de SciPy pour les statistiques et les distributions, offrant des fonctionnalités avancées pour les simulations et les analyses statistiques."
+      "secrets": "Module Python pour la génération de nombres aléatoires sécurisés, utilisé pour les mots de passe et les jetons, partageant des notions de sécurité et de nombres aléatoires."
     },
     "IUT": "TRUE",
     "Nom image": ""
@@ -1286,24 +1284,6 @@
     "Nom image": "?"
   },
   {
-    "Ressource": "NumPy",
-    "Description": "Une bibliothèque Python pour le calcul scientifique, particulièrement pour les tableaux et les matrices multidimensionnelles.",
-    "Notions clés": [
-      "Tableaux",
-      "Matrices",
-      "Calcul scientifique",
-      "Algèbre linéaire",
-      "Statistiques"
-    ],
-    "Ressources liées": {
-      "SciPy": "Bibliothèque Python pour le calcul scientifique et technique, construite sur NumPy, offrant des fonctionnalités avancées de calcul.",
-      "Pandas": "Bibliothèque Python pour la manipulation et l'analyse de données, partageant des notions de tableaux et de statistiques.",
-      "TensorFlow": "Bibliothèque open source pour le calcul numérique et l'apprentissage automatique, partageant des notions de matrices et de calcul scientifique."
-    },
-    "IUT": "TRUE",
-    "Nom image": "numpy_logo"
-  },
-  {
     "Ressource": "SciPy",
     "Description": "Une bibliothèque Python pour le calcul scientifique et technique, construite sur NumPy, offrant des fonctionnalités avancées de calcul.",
     "Notions clés": [
@@ -1388,23 +1368,6 @@
       "Matplotlib": "Bibliothèque Python pour créer des visualisations de données statiques, animées et interactives, souvent utilisée avec Bokeh pour personnaliser les graphiques.",
       "Seaborn": "Bibliothèque Python pour la visualisation de données basée sur Matplotlib, offrant des graphiques statistiques attractifs.",
       "Plotly": "Bibliothèque Python pour la création de graphiques interactifs et de visualisations de données, offrant des fonctionnalités avancées d'interactivité."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Seaborn",
-    "Description": "Seaborn est une bibliothèque Python pour la visualisation de données, construite sur Matplotlib. Elle simplifie la création de graphiques statistiques attractifs et informatifs, facilitant l'analyse des données.",
-    "Notions clés": [
-      "Visualisation de données",
-      "Graphiques statistiques",
-      "Matplotlib",
-      "Personnalisation"
-    ],
-    "Ressources liées": {
-      "Matplotlib": "Bibliothèque Python pour créer des visualisations de données statiques, animées et interactives, souvent utilisée avec Seaborn pour personnaliser les graphiques.",
-      "Plotly": "Bibliothèque Python pour la création de graphiques interactifs et de visualisations de données, offrant des fonctionnalités avancées d'interactivité.",
-      "Bokeh": "Bibliothèque Python pour la création de visualisations interactives et web, offrant des fonctionnalités avancées de personnalisation et d'interactivité."
     },
     "IUT": "FALSE",
     "Nom image": "?"
