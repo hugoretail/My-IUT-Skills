@@ -437,8 +437,7 @@
     ],
     "Ressources liées": {
       "Maxima": "Système de calcul formel open source, partageant des notions d'algèbre symbolique et de calcul formel.",
-      "SageMath": "Système de calcul mathématique open source, intégrant SymPy et d'autres bibliothèques pour le calcul formel.",
-      "Mathematica": "Logiciel de calcul formel et numérique, partageant des notions d'algèbre symbolique et de calcul formel."
+      "SageMath": "Système de calcul mathématique open source, intégrant SymPy et d'autres bibliothèques pour le calcul formel."
     },
     "IUT": "TRUE",
     "Nom image": "sympy_logo"
@@ -671,7 +670,7 @@
     ],
     "Ressources liées": {
       "hmac": "Module Python pour la création de codes d'authentification de message basés sur des hachages, partageant des notions de sécurité et d'intégrité des données.",
-      "cryptography": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées pour le chiffrement et le hachage, partageant des notions de sécurité et de cryptographie.",  
+      "cryptography": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées pour le chiffrement et le hachage, partageant des notions de sécurité et de cryptographie." 
     },
     "IUT": "TRUE",
     "Nom image": "hashlib_logo"
@@ -957,8 +956,7 @@
     ],
     "Ressources liées": {
       "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages et apprécié pour ses extensions.",
-      "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
-      "Notepad++": "Éditeur de texte pour Windows, offrant des fonctionnalités avancées pour l'édition de code."
+      "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions."
     },
     "IUT": "FALSE",
     "Nom image": "?"
@@ -1335,8 +1333,7 @@
     ],
     "Ressources liées": {
       "Maxima": "Système de calcul formel open source, partageant des notions d'algèbre symbolique et de calcul formel.",
-      "SageMath": "Système de calcul mathématique open source, intégrant SymPy et d'autres bibliothèques pour le calcul formel.",
-      "Mathematica": "Logiciel de calcul formel et numérique, partageant des notions d'algèbre symbolique et de calcul formel."
+      "SageMath": "Système de calcul mathématique open source, intégrant SymPy et d'autres bibliothèques pour le calcul formel."
     },
     "IUT": "FALSE",
     "Nom image": "?"
@@ -1397,7 +1394,7 @@
   },
   {
     "Ressource": "Seaborn",
-    "Description": "Bibliothèque Python pour la visualisation de données basée sur Matplotlib, offrant des graphiques statistiques attractifs.",
+    "Description": "Seaborn est une bibliothèque Python pour la visualisation de données, construite sur Matplotlib. Elle simplifie la création de graphiques statistiques attractifs et informatifs, facilitant l'analyse des données.",
     "Notions clés": [
       "Visualisation de données",
       "Graphiques statistiques",
@@ -1414,7 +1411,7 @@
   },
   {
     "Ressource": "Plotly",
-    "Description": "Bibliothèque Python pour la création de graphiques interactifs et de visualisations de données, offrant des fonctionnalités avancées d'interactivité.",
+    "Description": "Plotly est une bibliothèque Python qui permet de créer des graphiques interactifs et des visualisations de données. Elle est particulièrement utile pour les applications web et les tableaux de bord interactifs.",
     "Notions clés": [
       "Visualisation de données",
       "Graphiques interactifs",
@@ -1431,7 +1428,7 @@
   },
   {
     "Ressource": "SciPy",
-    "Description": "Bibliothèque Python pour le calcul scientifique et technique, construite sur NumPy, offrant des fonctionnalités avancées de calcul.",
+    "Description": "SciPy est une bibliothèque Python destinée au calcul scientifique et technique. Elle est construite sur NumPy et offre des outils pour l'algèbre linéaire, l'optimisation, les statistiques et bien plus.",
     "Notions clés": [
       "Calcul scientifique",
       "Algèbre linéaire",
@@ -1448,7 +1445,7 @@
   },
   {
     "Ressource": "Pandas",
-    "Description": "Bibliothèque Python pour la manipulation et l'analyse de données, partageant des notions de tableaux et de statistiques.",
+    "Description": "Pandas est une bibliothèque Python utilisée pour la manipulation et l'analyse de données. Elle offre des structures de données flexibles et des outils puissants pour travailler avec des données tabulaires.",
     "Notions clés": [
       "Manipulation de données",
       "Analyse de données",
@@ -1465,7 +1462,7 @@
   },
   {
     "Ressource": "TensorFlow",
-    "Description": "Bibliothèque open source pour le calcul numérique et l'apprentissage automatique, partageant des notions de matrices et de calcul scientifique.",
+    "Description": "TensorFlow est une bibliothèque open source pour le calcul numérique et l'apprentissage automatique. Elle est utilisée pour construire et entraîner des modèles de machine learning et de deep learning.",
     "Notions clés": [
       "Apprentissage automatique",
       "Calcul numérique",
@@ -1482,7 +1479,7 @@
   },
   {
     "Ressource": "LaTeX",
-    "Description": "Système de composition de documents pour la production de documents scientifiques et techniques, partageant des notions de balisage et de formatage.",
+    "Description": "LaTeX est un système de composition de documents utilisé pour produire des documents scientifiques et techniques. Il est particulièrement apprécié pour sa capacité à gérer des documents complexes avec des formules mathématiques.",
     "Notions clés": [
       "Composition de documents",
       "Balisage",
@@ -1499,7 +1496,7 @@
   },
   {
     "Ressource": "reStructuredText",
-    "Description": "Langage de balisage léger utilisé pour formater du texte, souvent utilisé dans la documentation technique, partageant des notions de balisage et de lisibilité.",
+    "Description": "reStructuredText est un langage de balisage léger utilisé pour formater du texte. Il est souvent utilisé dans la documentation technique pour sa lisibilité et sa simplicité.",
     "Notions clés": [
       "Formatage de texte",
       "Documentation technique",
@@ -1516,7 +1513,7 @@
   },
   {
     "Ressource": "Swift",
-    "Description": "Langage de programmation pour le développement iOS et macOS. Comme Kotlin, il est moderne et concis.",
+    "Description": "Swift est un langage de programmation moderne et concis, utilisé principalement pour le développement d'applications iOS et macOS. Il est conçu pour être sûr, rapide et interactif.",
     "Notions clés": [
       "Développement iOS",
       "Développement macOS",
@@ -1533,7 +1530,7 @@
   },
   {
     "Ressource": "Scala",
-    "Description": "Langage de programmation qui combine des concepts de programmation orientée objet et fonctionnelle, partageant des notions de concision et de modernité avec Kotlin.",
+    "Description": "Scala est un langage de programmation qui combine des concepts de programmation orientée objet et fonctionnelle. Il est conçu pour être concis, élégant et performant.",
     "Notions clés": [
       "Programmation orientée objet",
       "Programmation fonctionnelle",
@@ -1550,7 +1547,7 @@
   },
   {
     "Ressource": "F#",
-    "Description": "Langage de programmation fonctionnel pour la plateforme .NET, partageant des notions de sécurité et d'interopérabilité.",
+    "Description": "F# est un langage de programmation fonctionnel pour la plateforme .NET. Il est conçu pour être productif, sûr et interopérable avec d'autres langages .NET.",
     "Notions clés": [
       "Programmation fonctionnelle",
       "Interopérabilité .NET",
@@ -1567,7 +1564,7 @@
   },
   {
     "Ressource": "IDLE",
-    "Description": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants.",
+    "Description": "IDLE est un environnement de développement intégré (IDE) simple pour Python, fourni avec l'installation standard de Python. Il est conçu pour les débutants et offre une interface simplifiée pour l'apprentissage.",
     "Notions clés": [
       "IDE",
       "Python",
@@ -1585,7 +1582,7 @@
   },
   {
     "Ressource": "PostCSS",
-    "Description": "Outil de transformation CSS qui utilise des plugins pour étendre les fonctionnalités de CSS, souvent utilisé avec des préprocesseurs comme Sass.",
+    "Description": "PostCSS est un outil de transformation CSS qui utilise des plugins pour étendre les fonctionnalités de CSS. Il est souvent utilisé avec des préprocesseurs comme Sass pour améliorer la productivité.",
     "Notions clés": [
       "Transformation CSS",
       "Plugins",
@@ -1601,25 +1598,8 @@
     "Nom image": "?"
   },
   {
-    "Ressource": "Notepad++",
-    "Description": "Éditeur de texte pour Windows, offrant des fonctionnalités avancées pour l'édition de code.",
-    "Notions clés": [
-      "Éditeur de texte",
-      "Syntaxe colorée",
-      "Extensions",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "Sublime Text": "Éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités.",
-      "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
-      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages, apprécié pour ses extensions et ses outils de développement."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
     "Ressource": "docopt",
-    "Description": "Bibliothèque Python pour créer des interfaces en ligne de commande basées sur la documentation, partageant des notions d'arguments de ligne de commande et de documentation.",
+    "Description": "docopt est une bibliothèque Python pour créer des interfaces en ligne de commande basées sur la documentation. Elle facilite la création de commandes réutilisables et conviviales.",
     "Notions clés": [
       "Arguments de ligne de commande",
       "Documentation",
@@ -1635,25 +1615,8 @@
     "Nom image": "?"
   },
   {
-    "Ressource": "hashlib.algorithms_guaranteed",
-    "Description": "Liste des algorithmes de hachage garantis disponibles dans hashlib, partageant des notions d'algorithmes et de sécurité.",
-    "Notions clés": [
-      "Algorithmes de hachage",
-      "Sécurité",
-      "Cryptographie",
-      "Intégrité des données"
-    ],
-    "Ressources liées": {
-      "hashlib": "Module Python qui fournit des fonctions de hachage sécurisées pour les messages et les données.",
-      "cryptography": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées de chiffrement et de hachage.",
-      "pycryptodome": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées de chiffrement et de hachage."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
     "Ressource": "Visme",
-    "Description": "Outil de conception graphique en ligne pour créer des présentations, des infographies et des rapports, partageant des notions de conception graphique et de collaboration.",
+    "Description": "Visme est un outil de conception graphique en ligne pour créer des présentations, des infographies et des rapports. Il est conçu pour faciliter la collaboration et la création de contenus visuels attractifs.",
     "Notions clés": [
       "Conception graphique",
       "Présentations",
@@ -1670,7 +1633,7 @@
   },
   {
     "Ressource": "StarUML",
-    "Description": "Outil de modélisation UML pour la conception de logiciels, partageant des notions de modélisation et de conception.",
+    "Description": "StarUML est un outil de modélisation UML pour la conception de logiciels. Il permet de créer des diagrammes UML et de documenter les architectures logicielles de manière efficace.",
     "Notions clés": [
       "Modélisation UML",
       "Conception de logiciels",
@@ -1687,7 +1650,7 @@
   },
   {
     "Ressource": "EVE-NG",
-    "Description": "Émulateur de réseau pour la conception et le test de topologies réseau, partageant des notions d'émulation de réseau et de configuration réseau.",
+    "Description": "EVE-NG est un émulateur de réseau pour la conception et le test de topologies réseau. Il permet de simuler des environnements réseau complexes pour la formation et les tests.",
     "Notions clés": [
       "Émulation de réseau",
       "Topologies réseau",
@@ -1704,7 +1667,7 @@
   },
   {
     "Ressource": "GNS3",
-    "Description": "Logiciel de simulation de réseau pour concevoir et tester des topologies réseau, partageant des notions de simulation et de concepts de réseau.",
+    "Description": "GNS3 est un logiciel de simulation de réseau pour concevoir et tester des topologies réseau. Il est utilisé pour simuler des environnements réseau complexes et tester des configurations.",
     "Notions clés": [
       "Simulation de réseau",
       "Topologies réseau",
@@ -1721,7 +1684,7 @@
   },
   {
     "Ressource": "PL/I",
-    "Description": "Langage de programmation utilisé pour les applications commerciales et scientifiques, partageant des notions de gestion de fichiers et de sécurité.",
+    "Description": "PL/I est un langage de programmation utilisé pour les applications commerciales et scientifiques. Il est connu pour sa robustesse et sa capacité à gérer des tâches complexes de gestion de fichiers et de sécurité.",
     "Notions clés": [
       "Applications commerciales",
       "Applications scientifiques",
@@ -1738,7 +1701,7 @@
   },
   {
     "Ressource": "XSLT",
-    "Description": "Langage de transformation XML utilisé pour transformer des documents XML en d'autres formats, partageant des notions de structuration et de transformation de données.",
+    "Description": "XSLT est un langage de transformation XML utilisé pour convertir des documents XML en d'autres formats. Il est essentiel pour la structuration et la transformation des données XML.",
     "Notions clés": [
       "Transformation XML",
       "Structuration de données",
@@ -1746,9 +1709,7 @@
       "Productivité"
     ],
     "Ressources liées": {
-      "XML": "Langage de balisage extensible utilisé pour structurer, stocker et transporter des données.",
-      "XPath": "Langage de requête pour sélectionner des nœuds dans un document XML, souvent utilisé avec XSLT pour transformer des documents XML.",
-      "JSON": "Format de données léger utilisé pour l'échange de données, partageant des notions de structuration et de formatage avec XML."
+      "XML": "Langage de balisage extensible utilisé pour structurer, stocker et transporter des données."
     },
     "IUT": "FALSE",
     "Nom image": "?"
@@ -1763,367 +1724,8 @@
       "Productivité"
     ],
     "Ressources liées": {
-      "SVG": "Format de fichier XML utilisé pour décrire des graphiques vectoriels, souvent utilisé pour afficher des graphiques et des illustrations sur le web.",
       "Adobe Illustrator": "Logiciel de création de graphiques vectoriels, utilisé pour créer des illustrations, des logos et des graphiques.",
       "CorelDRAW": "Logiciel de création de graphiques vectoriels, utilisé pour créer des illustrations, des logos et des graphiques."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Mathematica",
-    "Description": "Logiciel de calcul formel et numérique, partageant des notions d'algèbre symbolique et de calcul formel.",
-    "Notions clés": [
-      "Calcul formel",
-      "Calcul numérique",
-      "Algèbre symbolique",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "SymPy": "Bibliothèque Python pour l'algèbre symbolique et le calcul formel.",
-      "Maple": "Logiciel de calcul formel et numérique, utilisé pour les mathématiques symboliques et numériques.",
-      "Matlab": "Logiciel de calcul numérique et de programmation, utilisé pour l'analyse de données, le développement d'algorithmes et la création de modèles."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Command Prompt",
-    "Description": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts.",
-    "Notions clés": [
-      "Interface en ligne de commande",
-      "Commandes",
-      "Scripts",
-      "Gestion du système"
-    ],
-    "Ressources liées": {
-      "PowerShell": "Shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows.",
-      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système.",
-      "iTerm2": "Terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "iTerm2",
-    "Description": "Terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue.",
-    "Notions clés": [
-      "Terminal",
-      "macOS",
-      "Personnalisation",
-      "Gestion du système"
-    ],
-    "Ressources liées": {
-      "Command Prompt": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts.",
-      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système.",
-      "Zsh": "Shell Unix offrant des fonctionnalités avancées et une personnalisation étendue, souvent utilisé comme alternative à Bash."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "reStructuredText",
-    "Description": "Langage de balisage léger utilisé pour formater du texte, souvent utilisé dans la documentation technique, partageant des notions de balisage et de lisibilité.",
-    "Notions clés": [
-      "Formatage de texte",
-      "Documentation technique",
-      "Balisage",
-      "Lisibilité"
-    ],
-    "Ressources liées": {
-      "Markdown": "Langage de balisage léger utilisé pour formater du texte. Utilisé dans les documents et les fichiers README, il partage des concepts de structuration de contenu avec reStructuredText.",
-      "LaTeX": "Système de composition de documents pour la production de documents scientifiques et techniques, partageant des notions de balisage et de formatage.",
-      "HTML": "Langage de balisage standard utilisé pour créer et structurer les pages web, partageant des notions de balisage et de formatage."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Swift",
-    "Description": "Langage de programmation pour le développement iOS et macOS. Comme Kotlin, il est moderne et concis.",
-    "Notions clés": [
-      "Développement iOS",
-      "Développement macOS",
-      "Programmation orientée objet",
-      "Sécurité"
-    ],
-    "Ressources liées": {
-      "Kotlin": "Langage de programmation moderne et concis, entièrement interopérable avec Java. Souvent utilisé pour le développement Android, il partage des notions de portabilité et de sécurité avec Swift.",
-      "Objective-C": "Langage de programmation utilisé pour le développement d'applications macOS et iOS, partageant des notions de gestion de la mémoire et de performance.",
-      "Java": "Langage de programmation orienté objet utilisé pour développer des applications web, mobiles et de bureau. Swift partage des concepts de programmation orientée objet avec Java."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Scala",
-    "Description": "Langage de programmation qui combine des concepts de programmation orientée objet et fonctionnelle, partageant des notions de concision et de modernité avec Kotlin.",
-    "Notions clés": [
-      "Programmation orientée objet",
-      "Programmation fonctionnelle",
-      "Concision",
-      "Modernité"
-    ],
-    "Ressources liées": {
-      "Kotlin": "Langage de programmation moderne et concis, entièrement interopérable avec Java. Souvent utilisé pour le développement Android, il partage des notions de portabilité et de sécurité avec Scala.",
-      "Java": "Langage de programmation orienté objet utilisé pour développer des applications web, mobiles et de bureau. Scala partage des concepts de programmation orientée objet avec Java.",
-      "Haskell": "Langage de programmation fonctionnelle, partageant des notions de programmation fonctionnelle avec Scala."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "F#",
-    "Description": "Langage de programmation fonctionnel pour la plateforme .NET, partageant des notions de sécurité et d'interopérabilité.",
-    "Notions clés": [
-      "Programmation fonctionnelle",
-      "Interopérabilité .NET",
-      "Sécurité",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "C#": "Langage de programmation orienté objet développé par Microsoft, similaire à Java en termes de syntaxe et de paradigmes de programmation. Utilisé pour le développement d'applications de bureau et web.",
-      "Scala": "Langage de programmation qui combine des concepts de programmation orientée objet et fonctionnelle, partageant des notions de concision et de modernité avec F#.",
-      "Haskell": "Langage de programmation fonctionnelle, partageant des notions de programmation fonctionnelle avec F#."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "IDLE",
-    "Description": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants.",
-    "Notions clés": [
-      "IDE",
-      "Python",
-      "Débogage",
-      "Interface simplifiée",
-      "Apprentissage"
-    ],
-    "Ressources liées": {
-      "Thonny": "IDE pour Python, conçu pour les débutants avec des fonctionnalités simplifiées pour l'apprentissage et le débogage du code Python.",
-      "Mu Editor": "Éditeur de texte simple pour Python, conçu pour les débutants et les enseignants.",
-      "PyCharm Edu": "Version éducative de PyCharm, offrant des fonctionnalités simplifiées pour l'apprentissage du Python."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "PostCSS",
-    "Description": "Outil de transformation CSS qui utilise des plugins pour étendre les fonctionnalités de CSS, souvent utilisé avec des préprocesseurs comme Sass.",
-    "Notions clés": [
-      "Transformation CSS",
-      "Plugins",
-      "Préprocesseurs",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "Sass": "Préprocesseur CSS qui ajoute des fonctionnalités comme les variables et les mixins. Il améliore la productivité en permettant une écriture plus concise et maintenable des styles.",
-      "Less": "Préprocesseur CSS qui ajoute des fonctionnalités comme les variables et les mixins, facilitant la gestion des styles.",
-      "Stylus": "Préprocesseur CSS qui ajoute des fonctionnalités comme les variables et les mixins, permettant une écriture plus concise et maintenable des styles."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Notepad++",
-    "Description": "Éditeur de texte pour Windows, offrant des fonctionnalités avancées pour l'édition de code.",
-    "Notions clés": [
-      "Éditeur de texte",
-      "Syntaxe colorée",
-      "Extensions",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "Sublime Text": "Éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités.",
-      "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions.",
-      "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages, apprécié pour ses extensions et ses outils de développement."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "docopt",
-    "Description": "Bibliothèque Python pour créer des interfaces en ligne de commande basées sur la documentation, partageant des notions d'arguments de ligne de commande et de documentation.",
-    "Notions clés": [
-      "Arguments de ligne de commande",
-      "Documentation",
-      "Interfaces en ligne de commande",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "argparse": "Module Python pour l'analyse des arguments de ligne de commande, permettant de créer des interfaces en ligne de commande conviviales.",
-      "click": "Bibliothèque Python pour créer des interfaces en ligne de commande, facilitant la création de commandes réutilisables.",
-      "optparse": "Module Python pour l'analyse des arguments de ligne de commande, permettant de créer des interfaces en ligne de commande conviviales."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "hashlib.algorithms_guaranteed",
-    "Description": "Liste des algorithmes de hachage garantis disponibles dans hashlib, partageant des notions d'algorithmes et de sécurité.",
-    "Notions clés": [
-      "Algorithmes de hachage",
-      "Sécurité",
-      "Cryptographie",
-      "Intégrité des données"
-    ],
-    "Ressources liées": {
-      "hashlib": "Module Python qui fournit des fonctions de hachage sécurisées pour les messages et les données.",
-      "cryptography": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées de chiffrement et de hachage.",
-      "pycryptodome": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées de chiffrement et de hachage."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Visme",
-    "Description": "Outil de conception graphique en ligne pour créer des présentations, des infographies et des rapports, partageant des notions de conception graphique et de collaboration.",
-    "Notions clés": [
-      "Conception graphique",
-      "Présentations",
-      "Infographies",
-      "Collaboration"
-    ],
-    "Ressources liées": {
-      "Canva": "Outil de conception graphique en ligne utilisé pour créer des présentations, des affiches, des documents et d'autres contenus visuels.",
-      "Piktochart": "Outil de conception graphique en ligne pour créer des infographies, des présentations et des rapports.",
-      "Adobe Spark": "Outil de conception graphique en ligne pour créer des graphiques, des vidéos et des pages web."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "StarUML",
-    "Description": "Outil de modélisation UML pour la conception de logiciels, partageant des notions de modélisation et de conception.",
-    "Notions clés": [
-      "Modélisation UML",
-      "Conception de logiciels",
-      "Diagrammes",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "UMLetino": "Outil en ligne pour dessiner des diagrammes UML rapidement et facilement.",
-      "Enterprise Architect": "Outil de modélisation UML pour la conception de logiciels, offrant des fonctionnalités avancées de modélisation et de documentation.",
-      "Visual Paradigm": "Outil de modélisation UML pour la conception de logiciels, offrant des fonctionnalités avancées de modélisation et de documentation."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "EVE-NG",
-    "Description": "Émulateur de réseau pour la conception et le test de topologies réseau, partageant des notions d'émulation de réseau et de configuration réseau.",
-    "Notions clés": [
-      "Émulation de réseau",
-      "Topologies réseau",
-      "Configuration réseau",
-      "Tests"
-    ],
-    "Ressources liées": {
-      "GNS3": "Logiciel de simulation de réseau pour concevoir et tester des topologies réseau, partageant des notions de simulation et de concepts de réseau.",
-      "Cisco Packet Tracer": "Outil de simulation de réseau pour concevoir et tester des topologies réseau, utilisé pour l'apprentissage et la formation.",
-      "VirtualBox": "Logiciel de virtualisation pour exécuter des systèmes d'exploitation invités, souvent utilisé pour les tests et les simulations de réseau."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "GNS3",
-    "Description": "Logiciel de simulation de réseau pour concevoir et tester des topologies réseau, partageant des notions de simulation et de concepts de réseau.",
-    "Notions clés": [
-      "Simulation de réseau",
-      "Topologies réseau",
-      "Configuration réseau",
-      "Tests"
-    ],
-    "Ressources liées": {
-      "EVE-NG": "Émulateur de réseau pour la conception et le test de topologies réseau, partageant des notions d'émulation de réseau et de configuration réseau.",
-      "Cisco Packet Tracer": "Outil de simulation de réseau pour concevoir et tester des topologies réseau, utilisé pour l'apprentissage et la formation.",
-      "VirtualBox": "Logiciel de virtualisation pour exécuter des systèmes d'exploitation invités, souvent utilisé pour les tests et les simulations de réseau."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "PL/I",
-    "Description": "Langage de programmation utilisé pour les applications commerciales et scientifiques, partageant des notions de gestion de fichiers et de sécurité.",
-    "Notions clés": [
-      "Applications commerciales",
-      "Applications scientifiques",
-      "Gestion de fichiers",
-      "Sécurité"
-    ],
-    "Ressources liées": {
-      "COBOL": "Langage de programmation de haut niveau utilisé principalement pour les applications commerciales et financières.",
-      "Fortran": "Langage de programmation utilisé pour les applications scientifiques et techniques, partageant des notions de calcul scientifique et de performance.",
-      "Ada": "Langage de programmation utilisé pour les systèmes embarqués et les applications critiques, partageant des notions de sécurité et de fiabilité."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "XSLT",
-    "Description": "Langage de transformation XML utilisé pour transformer des documents XML en d'autres formats, partageant des notions de structuration et de transformation de données.",
-    "Notions clés": [
-      "Transformation XML",
-      "Structuration de données",
-      "Formatage",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "XML": "Langage de balisage extensible utilisé pour structurer, stocker et transporter des données.",
-      "XPath": "Langage de requête pour sélectionner des nœuds dans un document XML, souvent utilisé avec XSLT pour transformer des documents XML.",
-      "JSON": "Format de données léger utilisé pour l'échange de données, partageant des notions de structuration et de formatage avec XML."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Inkscape",
-    "Description": "Éditeur de graphiques vectoriels open source, utilisé pour créer et éditer des fichiers SVG, partageant des notions de graphiques vectoriels et de scalabilité.",
-    "Notions clés": [
-      "Graphiques vectoriels",
-      "Édition de SVG",
-      "Scalabilité",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "SVG": "Format de fichier XML utilisé pour décrire des graphiques vectoriels, souvent utilisé pour afficher des graphiques et des illustrations sur le web.",
-      "Adobe Illustrator": "Logiciel de création de graphiques vectoriels, utilisé pour créer des illustrations, des logos et des graphiques.",
-      "CorelDRAW": "Logiciel de création de graphiques vectoriels, utilisé pour créer des illustrations, des logos et des graphiques."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Mathematica",
-    "Description": "Logiciel de calcul formel et numérique, partageant des notions d'algèbre symbolique et de calcul formel.",
-    "Notions clés": [
-      "Calcul formel",
-      "Calcul numérique",
-      "Algèbre symbolique",
-      "Productivité"
-    ],
-    "Ressources liées": {
-      "SymPy": "Bibliothèque Python pour l'algèbre symbolique et le calcul formel.",
-      "Maple": "Logiciel de calcul formel et numérique, utilisé pour les mathématiques symboliques et numériques.",
-      "Matlab": "Logiciel de calcul numérique et de programmation, utilisé pour l'analyse de données, le développement d'algorithmes et la création de modèles."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Command Prompt",
-    "Description": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts.",
-    "Notions clés": [
-      "Interface en ligne de commande",
-      "Commandes",
-      "Scripts",
-      "Gestion du système"
-    ],
-    "Ressources liées": {
-      "PowerShell": "Shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows.",
-      "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système.",
-      "iTerm2": "Terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue."
     },
     "IUT": "FALSE",
     "Nom image": "?"

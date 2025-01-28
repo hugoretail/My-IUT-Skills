@@ -229,4 +229,194 @@
 
 - [Mu Official Website](https://codewith.mu/)
 
-...
+## SciPy
+
+- [SciPy Official Website](https://www.scipy.org/)
+
+## TensorFlow
+
+- [TensorFlow Official Website](https://www.tensorflow.org/)
+
+## Seaborn
+
+- [Seaborn Official Website](https://seaborn.pydata.org/)
+
+## Plotly
+
+- [Plotly Official Website](https://plotly.com/)
+
+## click
+
+- [Click Official Website](https://click.palletsprojects.com/)
+
+## optparse
+
+- [Python optparse Module Documentation](https://docs.python.org/3/library/optparse.html)
+
+## docopt
+
+- [Docopt Official Website](https://docopt.org/)
+
+## hmac
+
+- [Python hmac Module Documentation](https://docs.python.org/3/library/hmac.html)
+
+## cryptography
+
+- [Cryptography Official Website](https://cryptography.io/)
+
+## Kotlin
+
+- [Kotlin Official Website](https://kotlinlang.org/)
+
+## C#
+
+- [Microsoft C# Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
+
+## Eclipse
+
+- [Eclipse Official Website](https://www.eclipse.org/)
+
+## IntelliJ IDEA
+
+- [Jetbrains / IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
+## Markdown
+
+- [Markdown Guide](https://www.markdownguide.org/)
+
+## LaTeX
+
+- [LaTeX Project Official Website](https://www.latex-project.org/)
+
+## reStructuredText
+
+- [reStructuredText Documentation](https://docutils.sourceforge.io/rst.html)
+
+## Command Prompt
+
+- [Microsoft Command Prompt Documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/command-prompt)
+
+## Zsh
+
+- [Zsh Official Website](https://www.zsh.org/)
+
+## Fish
+
+- [Fish Shell Official Website](https://fishshell.com/)
+
+## Foundation
+
+- [Foundation Official Website](https://get.foundation/)
+
+## Bulma
+
+- [Bulma Official Website](https://bulma.io/)
+
+## PowerShell
+
+- [Microsoft PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/)
+
+## F#
+
+- [Microsoft F# Documentation](https://docs.microsoft.com/en-us/dotnet/fsharp/)
+
+## Scala
+
+- [Scala Official Website](https://www.scala-lang.org/)
+
+## Swift
+
+- [Swift Official Website](https://swift.org/)
+
+## Visual Studio Code
+
+- [Visual Studio Code Official Website](https://code.visualstudio.com/)
+
+## Inkscape
+
+- [Inkscape Official Website](https://inkscape.org/)
+
+## PostCSS
+
+- [PostCSS Official Website](https://postcss.org/)
+
+## Notepad++
+
+- [Notepad++ Official Website](https://notepad-plus-plus.org/)
+
+## StarUML
+
+- [StarUML Official Website](https://staruml.io/)
+
+## EVE-NG
+
+- [EVE-NG Official Website](https://www.eve-ng.net/)
+
+## GNS3
+
+- [GNS3 Official Website](https://www.gns3.com/)
+
+## IDLE
+
+- [Python IDLE Documentation](https://docs.python.org/3/library/idle.html)
+
+## FreeMind
+
+- [FreeMind Official Website](http://freemind.sourceforge.net/wiki/index.php/Main_Page)
+
+## Numbers
+
+- [Apple Numbers Official Website](https://www.apple.com/numbers/)
+
+## IBM InfoSphere Data Architect
+
+- [IBM InfoSphere Data Architect Official Website](https://www.ibm.com/products/infosphere-data-architect)
+
+## Mathematica
+
+- [Wolfram Mathematica Official Website](https://www.wolfram.com/mathematica/)
+
+## Perforce
+
+- [Perforce Official Website](https://www.perforce.com/)
+
+## Jenkins
+
+- [Jenkins Official Website](https://www.jenkins.io/)
+
+## PL/I
+
+- [IBM PL/I Documentation](https://www.ibm.com/docs/en/pli)
+
+## Objective-C
+
+- [Apple Objective-C Documentation](https://developer.apple.com/documentation/objectivec)
+
+## Intel C++ Compiler
+
+- [Intel C++ Compiler Official Website](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/dpc-compiler.html)
+
+## SymPy
+
+- [SymPy Official Website](https://www.sympy.org/)
+
+## Visme
+
+- [Visme Official Website](https://www.visme.co/)
+
+## CodeIgniter
+
+- [CodeIgniter Official Website](https://codeigniter.com/)
+
+## Code::Blocks
+
+- [Code::Blocks Official Website](http://www.codeblocks.org/)
+
+## GNOME Terminal
+
+- [GNOME Terminal Documentation](https://help.gnome.org/users/gnome-terminal/stable/)
+
+## Command Prompt
+
+- [Microsoft Command Prompt Documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/command-prompt)
