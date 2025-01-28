@@ -200,3 +200,33 @@
 ## XML
 
 - [Wikipedia XML Page](https://fr.wikipedia.org/wiki/Extensible_Markup_Language)
+
+## SVG
+
+- [Wikipedia SVG Page](https://en.wikipedia.org/wiki/SVG)
+
+## Sass
+
+- [Sass Official Website](https://sass-lang.com/)
+
+## Tailwind
+
+- [Tailwind documentation page](https://tailwindcss.com/)
+
+## Sublime Text
+
+- [Sublime Official Website](https://www.sublimetext.com/)
+
+## Atom 
+
+- [Atom Official Website](https://atom-editor.cc/)
+
+## Brackets
+
+- [Brackets Official Website](https://brackets.io/?)
+
+## Mu Editor
+
+- [Mu Official Website](https://codewith.mu/)
+
+...
