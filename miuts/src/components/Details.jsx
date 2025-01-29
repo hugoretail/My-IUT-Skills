@@ -1,8 +1,14 @@
 import React from "react";
 import { RiBookShelfLine } from "react-icons/ri";
 
-export default function Details({ item }) {
+export default function Details({ item, technicalRessources }) {
   if (!item) return null;
+
+  const getRessourceDetails = (ressourceName) => {
+    return technicalRessources.find(
+      (ressource) => ressource.Ressource === ressourceName
+    );
+  };
 
   return (
     <div className="mt-4 p-4 bg-gray-800 border border-gray-700 rounded shadow-lg">
@@ -40,14 +46,28 @@ export default function Details({ item }) {
 
       {item.RessourcesLiees && (
         <div>
-          <h3 className="text-lg font-semibold">Ressources Liées :</h3>
-          <ul className="list-disc list-inside">
-            {Object.entries(item.RessourcesLiees).map(([key, value], index) => (
-              <li key={index}>
-                <strong>{key}:</strong> {value}
-              </li>
-            ))}
-          </ul>
+          <h3 className="text-lg font-semibold mt-4">Ressources Liées :</h3>
+          <div className="flex flex-wrap justify-center">
+            {Object.entries(item.RessourcesLiees).map(([key, value], index) => {
+              const ressourceDetails = getRessourceDetails(key);
+              return (
+                <div key={index} className="relative m-2">
+                  {ressourceDetails && (
+                    <>
+                      <img
+                        src={`/logo/${ressourceDetails["Nom image"]}.webp`}
+                        alt={key}
+                        className="w-12 h-12 object-contain"
+                      />
+                      <div className="absolute bottom-0 left-0 w-full p-2 bg-gray-900 text-white text-xs opacity-0 hover:opacity-100 transition-opacity duration-300">
+                        {value}
+                      </div>
+                    </>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>

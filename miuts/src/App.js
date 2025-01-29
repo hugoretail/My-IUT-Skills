@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
-import Details from './components/Details';
-import ScrollToTop from './components/ScrollToTop';
-import Searchbar from './components/SearchBar';
-import Title from './components/Title';
+import Details from "./components/Details";
+import ScrollToTop from "./components/ScrollToTop";
+import Searchbar from "./components/SearchBar";
+import Title from "./components/Title";
 
 export default function App() {
   const [iutData, setIutData] = useState([]);
@@ -13,20 +13,22 @@ export default function App() {
 
   useEffect(() => {
     fetch("/data/iut_data.json")
-      .then(response => response.json())
-      .then(iutData => setIutData(iutData));
+      .then((response) => response.json())
+      .then((iutData) => setIutData(iutData));
   }, []);
 
   useEffect(() => {
     fetch("/data/technical_ressources.json")
-      .then(response => response.json())
-      .then(technicalRessources => setTechnicalRessources(technicalRessources));
+      .then((response) => response.json())
+      .then((technicalRessources) =>
+        setTechnicalRessources(technicalRessources)
+      );
   }, []);
 
   const handleSelect = (item) => {
     setSelectedItem(item);
     setTimeout(() => {
-      detailsRef.current.scrollIntoView({ behavior: 'smooth' });
+      detailsRef.current.scrollIntoView({ behavior: "smooth" });
     }, 100);
   };
 
@@ -42,9 +44,15 @@ export default function App() {
       </main>
       {selectedItem && (
         <>
-          <div ref={detailsRef} className="min-h-screen w-full flex flex-col items-center justify-center bg-gray-800 text-white py-8">
+          <div
+            ref={detailsRef}
+            className="min-h-screen w-full flex flex-col items-center justify-center bg-gray-800 text-white py-8"
+          >
             <div className="w-11/12 md:w-3/4 lg:w-1/2 bg-gray-700 p-8 rounded">
-              <Details item={selectedItem} />
+              <Details
+                item={selectedItem}
+                technicalRessources={technicalRessources}
+              />
             </div>
             <ScrollToTop isVisible={true} />
           </div>
