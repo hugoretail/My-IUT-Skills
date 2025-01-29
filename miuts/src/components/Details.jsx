@@ -14,17 +14,10 @@ export default function Details({ item, technicalRessources }) {
     <div className="mt-4 p-6 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl shadow-2xl relative">
       {item.IUT === "TRUE" && (
         <div className="absolute top-3 right-3 group">
-          <div
-            className="px-3 py-1 bg-cyan-500/10 border border-cyan-400/30 rounded-full 
-                         hover:bg-cyan-500/20 transition-all duration-300 cursor-help"
-          >
+          <div className="px-3 py-1 bg-cyan-500/10 border border-cyan-400/30 rounded-full hover:bg-cyan-500/20 transition-all duration-300 cursor-help">
             <span className="text-sm text-cyan-400 font-medium">IUT</span>
           </div>
-          <div
-            className="absolute right-0 mt-2 px-3 py-2 bg-gray-800 border border-cyan-500/20 
-                         rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity 
-                         duration-300 text-sm text-gray-300 whitespace-nowrap z-10"
-          >
+          <div className="absolute right-0 mt-2 px-3 py-2 bg-gray-800 border border-cyan-500/20 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm text-gray-300 whitespace-nowrap z-10">
             Utilisé à l'IUT
           </div>
         </div>
@@ -32,11 +25,7 @@ export default function Details({ item, technicalRessources }) {
 
       {(item.NomImage || !item.NomImage) && (
         <div className="absolute top-3 left-3">
-          <div
-            className="w-14 h-14 rounded-full p-2 bg-gray-700/50 border border-gray-600 
-                         hover:border-cyan-500/30 shadow-lg transform hover:scale-110 
-                         transition-all duration-300"
-          >
+          <div className="w-14 h-14 rounded-full p-2 bg-gray-700/50 border border-gray-600 hover:border-cyan-500/30 shadow-lg transform hover:scale-110 transition-all duration-300">
             {item.NomImage ? (
               <img
                 src={`/logo/${item.NomImage}.webp`}
@@ -114,8 +103,11 @@ export default function Details({ item, technicalRessources }) {
                       )}
                       <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 w-64 p-4 bg-gray-800/95 backdrop-blur-sm text-gray-200 text-sm opacity-0 peer-hover:opacity-100 transition-all duration-300 pointer-events-none rounded-lg border border-cyan-500/20 shadow-xl">
                         <div className="relative">
+                          <h4 className="text-cyan-300 font-medium mb-2 pb-2 border-b border-cyan-500/20">
+                            {key}
+                          </h4>
                           <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gray-800/95 border-r border-b border-cyan-500/20 rotate-45"></div>
-                          <p className="pb-4">{value}</p>
+                          <p className="pb-2">{value}</p>
                         </div>
                       </div>
                     </div>
