@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGear } from "react-icons/fa6";
 import { RiBookShelfLine } from "react-icons/ri";
 
 export default function Details({ item }) {
@@ -8,7 +7,6 @@ export default function Details({ item }) {
   return (
     <div className="mt-4 p-4 bg-gray-800 border border-gray-700 rounded shadow-lg">
       <div className="flex items-center justify-center mb-2">
-        {item.NomImage && <FaGear size="1.5em" className="mr-1" />}
         {!item.NomImage && <RiBookShelfLine size="1.5em" className="mr-1" />}
         <h2 className="text-2xl font-bold">
           {item.Ressource && <span className="p-3">{item.Ressource}</span>}
