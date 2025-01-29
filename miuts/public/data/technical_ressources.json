@@ -336,7 +336,7 @@
     "Nom image": "gitlab_logo"
   },
   {
-    "Ressource": "Assembleur",
+    "Ressource": "Assembler",
     "Description": "Un langage de programmation de bas niveau utilisé pour écrire des programmes spécifiques à une architecture matérielle donnée.",
     "Notions clés": [
       "Langage de bas niveau",
@@ -426,7 +426,7 @@
     "Nom image": "geopandas_logo"
   },
   {
-    "Ressource": "sympy",
+    "Ressource": "SymPy",
     "Description": "Une bibliothèque Python pour l'algèbre symbolique et le calcul formel.",
     "Notions clés": [
       "Algèbre symbolique",
@@ -829,8 +829,7 @@
     ],
     "Ressources liées": {
       "Fortran": "Langage de programmation utilisé pour le calcul scientifique et technique, partageant des notions de performance et de gestion de fichiers.",
-      "Assembler": "Langage de programmation de bas niveau utilisé pour écrire des programmes spécifiques à une architecture matérielle, partageant des notions de performance et de gestion de fichiers.",
-      "PL/I": "Langage de programmation utilisé pour les applications commerciales et scientifiques, partageant des notions de gestion de fichiers et de sécurité."
+      "Assembler": "Langage de programmation de bas niveau utilisé pour écrire des programmes spécifiques à une architecture matérielle, partageant des notions de performance et de gestion de fichiers."
     },
     "IUT": "FALSE",
     "Nom image": "cobol_logo"
@@ -1119,7 +1118,7 @@
       "Command Prompt": "Interface en ligne de commande pour Windows, permettant d'exécuter des commandes et des scripts."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "powershell_logo"
   },
   {
     "Ressource": "Command Prompt",
@@ -1137,7 +1136,7 @@
       "iTerm2": "Terminal pour macOS offrant des fonctionnalités avancées et une personnalisation étendue."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "command_prompt_logo"
   },
   {
     "Ressource": "iTerm2",
@@ -1155,7 +1154,7 @@
       "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "iterm2_logo"
   },
   {
     "Ressource": "GNOME Terminal",
@@ -1173,7 +1172,7 @@
       "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "gnome_terminal_logo"
   },
   {
     "Ressource": "Oracle Database",
@@ -1191,7 +1190,7 @@
       "PostgreSQL": "Système de gestion de bases de données relationnelles open source, connu pour sa robustesse et ses fonctionnalités avancées."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "oracle_database_logo"
   },
   {
     "Ressource": "MySQL",
@@ -1209,7 +1208,7 @@
       "SQLite": "Système de gestion de bases de données relationnelles léger et intégré, souvent utilisé pour les applications mobiles et embarquées."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "mysql_logo"
   },
   {
     "Ressource": "PostgreSQL",
@@ -1227,7 +1226,7 @@
       "MongoDB": "Base de données NoSQL orientée documents, offrant des fonctionnalités avancées pour le stockage et la gestion des données non structurées."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "postgresql_logo"
   },
   {
     "Ressource": "ER/Studio",
@@ -1245,7 +1244,7 @@
       "WinDesign": "Outil de modélisation pour la conception de bases de données et de systèmes d'information."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "er_studio_logo"
   },
   {
     "Ressource": "IBM InfoSphere Data Architect",
@@ -1263,7 +1262,7 @@
       "WinDesign": "Outil de modélisation pour la conception de bases de données et de systèmes d'information."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "ibm_infosphere_logo"
   },
   {
     "Ressource": "Perl",
@@ -1281,7 +1280,7 @@
       "Bash": "Shell Unix et langage de commande utilisé pour l'automatisation des tâches et la gestion du système, partageant des notions de scripts et d'administration système."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "perl_logo"
   },
   {
     "Ressource": "SciPy",
@@ -1299,24 +1298,7 @@
       "Matplotlib": "Bibliothèque Python pour créer des visualisations de données statiques, animées et interactives, souvent utilisée avec SciPy pour visualiser les résultats des calculs."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "SymPy",
-    "Description": "Une bibliothèque Python pour l'algèbre symbolique et le calcul formel.",
-    "Notions clés": [
-      "Algèbre symbolique",
-      "Calcul formel",
-      "Équations différentielles",
-      "Intégration",
-      "Simplification"
-    ],
-    "Ressources liées": {
-      "Maxima": "Système de calcul formel open source, partageant des notions d'algèbre symbolique et de calcul formel.",
-      "SageMath": "Système de calcul mathématique open source, intégrant SymPy et d'autres bibliothèques pour le calcul formel."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "scipy_logo"
   },
   {
     "Ressource": "Seaborn",
@@ -1334,7 +1316,7 @@
       "Bokeh": "Bibliothèque Python pour la création de visualisations interactives et web, offrant des fonctionnalités avancées de personnalisation et d'interactivité."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "seaborn_logo"
   },
   {
     "Ressource": "Plotly",
@@ -1352,7 +1334,7 @@
       "Bokeh": "Bibliothèque Python pour la création de visualisations interactives et web, offrant des fonctionnalités avancées de personnalisation et d'interactivité."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "plotly_logo"
   },
   {
     "Ressource": "Bokeh",
@@ -1370,58 +1352,7 @@
       "Plotly": "Bibliothèque Python pour la création de graphiques interactifs et de visualisations de données, offrant des fonctionnalités avancées d'interactivité."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Plotly",
-    "Description": "Plotly est une bibliothèque Python qui permet de créer des graphiques interactifs et des visualisations de données. Elle est particulièrement utile pour les applications web et les tableaux de bord interactifs.",
-    "Notions clés": [
-      "Visualisation de données",
-      "Graphiques interactifs",
-      "Interactivité",
-      "Personnalisation"
-    ],
-    "Ressources liées": {
-      "Matplotlib": "Bibliothèque Python pour créer des visualisations de données statiques, animées et interactives, souvent utilisée avec Plotly pour personnaliser les graphiques.",
-      "Seaborn": "Bibliothèque Python pour la visualisation de données basée sur Matplotlib, offrant des graphiques statistiques attractifs.",
-      "Bokeh": "Bibliothèque Python pour la création de visualisations interactives et web, offrant des fonctionnalités avancées de personnalisation et d'interactivité."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "SciPy",
-    "Description": "SciPy est une bibliothèque Python destinée au calcul scientifique et technique. Elle est construite sur NumPy et offre des outils pour l'algèbre linéaire, l'optimisation, les statistiques et bien plus.",
-    "Notions clés": [
-      "Calcul scientifique",
-      "Algèbre linéaire",
-      "Optimisation",
-      "Statistiques"
-    ],
-    "Ressources liées": {
-      "NumPy": "Bibliothèque Python pour le calcul scientifique, particulièrement pour les tableaux et les matrices multidimensionnelles. SciPy est construit sur NumPy et partage de nombreuses fonctionnalités.",
-      "Pandas": "Bibliothèque Python pour la manipulation et l'analyse de données, partageant des notions de tableaux et de statistiques.",
-      "TensorFlow": "Bibliothèque open source pour le calcul numérique et l'apprentissage automatique, partageant des notions de matrices et de calcul scientifique."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "Pandas",
-    "Description": "Pandas est une bibliothèque Python utilisée pour la manipulation et l'analyse de données. Elle offre des structures de données flexibles et des outils puissants pour travailler avec des données tabulaires.",
-    "Notions clés": [
-      "Manipulation de données",
-      "Analyse de données",
-      "Tableaux",
-      "Statistiques"
-    ],
-    "Ressources liées": {
-      "NumPy": "Bibliothèque Python pour le calcul scientifique, particulièrement pour les tableaux et les matrices multidimensionnelles. Pandas utilise NumPy pour ses structures de données.",
-      "SciPy": "Bibliothèque Python pour le calcul scientifique et technique, construite sur NumPy, offrant des fonctionnalités avancées de calcul.",
-      "TensorFlow": "Bibliothèque open source pour le calcul numérique et l'apprentissage automatique, partageant des notions de matrices et de calcul scientifique."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "bokeh_logo"
   },
   {
     "Ressource": "TensorFlow",
@@ -1438,7 +1369,7 @@
       "Pandas": "Bibliothèque Python pour la manipulation et l'analyse de données, partageant des notions de tableaux et de statistiques."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "tensorflow_logo"
   },
   {
     "Ressource": "LaTeX",
@@ -1455,7 +1386,7 @@
       "reStructuredText": "Langage de balisage léger utilisé pour formater du texte, souvent utilisé dans la documentation technique, partageant des notions de balisage et de lisibilité."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "latex_logo"
   },
   {
     "Ressource": "reStructuredText",
@@ -1472,7 +1403,7 @@
       "HTML": "Langage de balisage standard utilisé pour créer et structurer les pages web, partageant des notions de balisage et de formatage."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "restructuredtext_logo"
   },
   {
     "Ressource": "Swift",
@@ -1489,7 +1420,7 @@
       "Java": "Langage de programmation orienté objet utilisé pour développer des applications web, mobiles et de bureau. Swift partage des concepts de programmation orientée objet avec Java."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "swift_logo"
   },
   {
     "Ressource": "Scala",
@@ -1506,7 +1437,7 @@
       "Haskell": "Langage de programmation fonctionnelle, partageant des notions de programmation fonctionnelle avec Scala."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "scala_logo"
   },
   {
     "Ressource": "F#",
@@ -1523,7 +1454,7 @@
       "Haskell": "Langage de programmation fonctionnelle, partageant des notions de programmation fonctionnelle avec F#."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "f_sharp_logo"
   },
   {
     "Ressource": "IDLE",
@@ -1541,7 +1472,7 @@
       "PyCharm Edu": "Version éducative de PyCharm, offrant des fonctionnalités simplifiées pour l'apprentissage du Python."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "idle_logo"
   },
   {
     "Ressource": "PostCSS",
@@ -1558,7 +1489,7 @@
       "Stylus": "Préprocesseur CSS qui ajoute des fonctionnalités comme les variables et les mixins, permettant une écriture plus concise et maintenable des styles."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "postcss_logo"
   },
   {
     "Ressource": "docopt",
@@ -1575,7 +1506,7 @@
       "optparse": "Module Python pour l'analyse des arguments de ligne de commande, permettant de créer des interfaces en ligne de commande conviviales."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "python_logo"
   },
   {
     "Ressource": "Visme",
@@ -1592,7 +1523,7 @@
       "Adobe Spark": "Outil de conception graphique en ligne pour créer des graphiques, des vidéos et des pages web."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "visme_logo"
   },
   {
     "Ressource": "StarUML",
@@ -1609,7 +1540,7 @@
       "Visual Paradigm": "Outil de modélisation UML pour la conception de logiciels, offrant des fonctionnalités avancées de modélisation et de documentation."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "staruml_logo"
   },
   {
     "Ressource": "EVE-NG",
@@ -1626,7 +1557,7 @@
       "VirtualBox": "Logiciel de virtualisation pour exécuter des systèmes d'exploitation invités, souvent utilisé pour les tests et les simulations de réseau."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "eveng_logo"
   },
   {
     "Ressource": "GNS3",
@@ -1643,24 +1574,7 @@
       "VirtualBox": "Logiciel de virtualisation pour exécuter des systèmes d'exploitation invités, souvent utilisé pour les tests et les simulations de réseau."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
-  },
-  {
-    "Ressource": "PL/I",
-    "Description": "PL/I est un langage de programmation utilisé pour les applications commerciales et scientifiques. Il est connu pour sa robustesse et sa capacité à gérer des tâches complexes de gestion de fichiers et de sécurité.",
-    "Notions clés": [
-      "Applications commerciales",
-      "Applications scientifiques",
-      "Gestion de fichiers",
-      "Sécurité"
-    ],
-    "Ressources liées": {
-      "COBOL": "Langage de programmation de haut niveau utilisé principalement pour les applications commerciales et financières.",
-      "Fortran": "Langage de programmation utilisé pour les applications scientifiques et techniques, partageant des notions de calcul scientifique et de performance.",
-      "Ada": "Langage de programmation utilisé pour les systèmes embarqués et les applications critiques, partageant des notions de sécurité et de fiabilité."
-    },
-    "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "gns3_logo"
   },
   {
     "Ressource": "XSLT",
@@ -1675,7 +1589,7 @@
       "XML": "Langage de balisage extensible utilisé pour structurer, stocker et transporter des données."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "xslt_logo"
   },
   {
     "Ressource": "Inkscape",
@@ -1691,6 +1605,6 @@
       "CorelDRAW": "Logiciel de création de graphiques vectoriels, utilisé pour créer des illustrations, des logos et des graphiques."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "inkscape_logo"
   }
 ]
