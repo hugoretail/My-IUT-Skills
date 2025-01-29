@@ -12,7 +12,6 @@ export default function Details({ item, technicalRessources }) {
 
   return (
     <div className="mt-4 p-6 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl shadow-2xl relative">
-      {/* IUT Badge */}
       {item.IUT === "TRUE" && (
         <div className="absolute top-3 right-3 group">
           <div
@@ -31,7 +30,6 @@ export default function Details({ item, technicalRessources }) {
         </div>
       )}
 
-      {/* Logo Pin */}
       {(item.NomImage || !item.NomImage) && (
         <div className="absolute top-3 left-3">
           <div
@@ -54,7 +52,6 @@ export default function Details({ item, technicalRessources }) {
         </div>
       )}
 
-      {/* Title */}
       <div className="flex flex-col items-center mb-8">
         <h2 className="text-2xl font-bold text-white text-center mt-8">
           {item.Ressource && <span className="px-2">{item.Ressource}</span>}
@@ -63,7 +60,6 @@ export default function Details({ item, technicalRessources }) {
         </h2>
       </div>
 
-      {/* Description */}
       {item.Description && (
         <div className="mt-2 p-4 bg-gray-800/40 border border-gray-700/50 rounded-lg">
           <p className="text-gray-200 leading-relaxed">{item.Description}</p>
