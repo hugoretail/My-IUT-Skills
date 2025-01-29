@@ -1,5 +1,20 @@
 # Sources
 
+## Projet React
+
+Sites utilisés pour la mise en place du projet :
+
+- https://create-react-app.dev/docs/getting-started
+- https://react.dev/learn
+
+## Données liées à l'IUT
+
+Le document PDF officiel :
+
+- https://www.enseignementsup-recherche.gouv.fr/sites/default/files/annexe-2-licence-professionnelle-bachelor-universitaire-de-technologie-informatique-29016.pdf
+
+L'IUT de Informatique de l'Université de Bordeaux suit le parcours A.
+
 ## Java
 
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/)
@@ -217,7 +232,7 @@
 
 - [Sublime Official Website](https://www.sublimetext.com/)
 
-## Atom 
+## Atom
 
 - [Atom Official Website](https://atom-editor.cc/)
 
