@@ -75,7 +75,7 @@ export default function Details({ item, technicalRessources }) {
           <h3 className="text-lg font-semibold mb-3 text-cyan-100">
             Notions Clés
           </h3>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap justify-center gap-2">
             {item.NotionsCles.map((notion, index) => (
               <button
                 key={index}
