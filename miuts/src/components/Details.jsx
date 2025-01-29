@@ -99,11 +99,19 @@ export default function Details({ item, technicalRessources }) {
                 <div key={index}>
                   {ressourceDetails && (
                     <div className="relative">
-                      <img
-                        src={`/logo/${ressourceDetails["Nom image"]}.webp`}
-                        alt={key}
-                        className="w-16 h-16 object-contain hover:scale-110 transition-all duration-300 hover:cursor-pointer peer rounded-lg p-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700 hover:border-cyan-500/50"
-                      />
+                      {ressourceDetails["Nom image"] ? (
+                        <img
+                          src={`/logo/${ressourceDetails["Nom image"]}.webp`}
+                          alt={key}
+                          className="w-16 h-16 object-contain hover:scale-110 transition-all duration-300 hover:cursor-pointer peer rounded-lg p-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700 hover:border-cyan-500/50"
+                        />
+                      ) : (
+                        <div className="w-16 h-16 flex items-center justify-center hover:scale-110 transition-all duration-300 hover:cursor-pointer peer rounded-lg p-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700 hover:border-cyan-500/50">
+                          <span className="text-cyan-300 text-sm text-center">
+                            {key}
+                          </span>
+                        </div>
+                      )}
                       <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-3 w-64 p-4 bg-gray-800/95 backdrop-blur-sm text-gray-200 text-sm opacity-0 peer-hover:opacity-100 transition-all duration-300 pointer-events-none rounded-lg border border-cyan-500/20 shadow-xl">
                         <div className="relative">
                           <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gray-800/95 border-r border-b border-cyan-500/20 rotate-45"></div>
