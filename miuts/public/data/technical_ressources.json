@@ -668,7 +668,7 @@
     ],
     "Ressources liées": {
       "hmac": "Module Python pour la création de codes d'authentification de message basés sur des hachages, partageant des notions de sécurité et d'intégrité des données.",
-      "cryptography": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées pour le chiffrement et le hachage, partageant des notions de sécurité et de cryptographie." 
+      "cryptography": "Bibliothèque Python pour la cryptographie, offrant des fonctionnalités avancées pour le chiffrement et le hachage, partageant des notions de sécurité et de cryptographie."
     },
     "IUT": "TRUE",
     "Nom image": "hashlib_logo"
@@ -850,7 +850,7 @@
       "Scala": "Langage de programmation qui combine des concepts de programmation orientée objet et fonctionnelle, partageant des notions de concision et de programmation fonctionnelle."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "kotlin_logo"
   },
   {
     "Ressource": "IntelliJ IDEA",
@@ -868,7 +868,7 @@
       "Visual Studio Code": "Éditeur de code source léger et extensible, supportant de nombreux langages, apprécié pour ses extensions et ses outils de développement."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "intellij_idea_logo"
   },
   {
     "Ressource": "XML",
@@ -886,7 +886,7 @@
       "XSLT": "Langage de transformation XML utilisé pour transformer des documents XML en d'autres formats, partageant des notions de structuration et de transformation de données."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "xml_logo"
   },
   {
     "Ressource": "SVG",
@@ -904,7 +904,7 @@
       "Inkscape": "Éditeur de graphiques vectoriels open source, utilisé pour créer et éditer des fichiers SVG, partageant des notions de graphiques vectoriels et de scalabilité."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "svg_logo"
   },
   {
     "Ressource": "Sass",
@@ -922,7 +922,7 @@
       "PostCSS": "Outil de transformation CSS qui utilise des plugins pour étendre les fonctionnalités de CSS, souvent utilisé avec des préprocesseurs comme Sass."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "sass_logo"
   },
   {
     "Ressource": "Tailwind CSS",
@@ -940,7 +940,7 @@
       "Foundation": "Framework CSS réactif et avancé, offrant des outils pour créer des sites web et des applications."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "tailwind_css_logo"
   },
   {
     "Ressource": "Sublime Text",
@@ -957,7 +957,7 @@
       "Atom": "Éditeur de texte open source développé par GitHub, connu pour sa personnalisation et ses extensions."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "sublime_text_logo"
   },
   {
     "Ressource": "Atom",
@@ -975,7 +975,7 @@
       "Brackets": "Éditeur de texte open source principalement utilisé pour le développement web, avec des fonctionnalités de prévisualisation en direct."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "atom_logo"
   },
   {
     "Ressource": "Brackets",
@@ -993,7 +993,7 @@
       "Sublime Text": "Éditeur de texte sophistiqué pour le code, le balisage et la prose, connu pour sa vitesse et ses fonctionnalités."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "brackets_logo"
   },
   {
     "Ressource": "Mu Editor",
@@ -1011,7 +1011,7 @@
       "PyCharm Edu": "Version éducative de PyCharm, offrant des fonctionnalités simplifiées pour l'apprentissage du Python."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "mu_editor_logo"
   },
   {
     "Ressource": "PyCharm Edu",
@@ -1029,7 +1029,7 @@
       "IDLE": "IDE simple pour Python, fourni avec l'installation standard de Python, conçu pour les débutants."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "pycharm_edu_logo"
   },
   {
     "Ressource": "Foundation",
@@ -1047,7 +1047,7 @@
       "Tailwind CSS": "Framework CSS utilitaire pour créer des interfaces utilisateur rapidement, permettant de composer des classes utilitaires pour appliquer des styles directement dans le HTML."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "foundation_logo"
   },
   {
     "Ressource": "Bulma",
@@ -1065,7 +1065,7 @@
       "Tailwind CSS": "Framework CSS utilitaire pour créer des interfaces utilisateur rapidement, permettant de composer des classes utilitaires pour appliquer des styles directement dans le HTML."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "bulma_logo"
   },
   {
     "Ressource": "Zsh",
@@ -1083,7 +1083,7 @@
       "PowerShell": "Shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "zsh_logo"
   },
   {
     "Ressource": "Fish",
@@ -1101,7 +1101,7 @@
       "PowerShell": "Shell de ligne de commande et langage de script développé par Microsoft, utilisé pour l'automatisation des tâches et la gestion du système sur Windows."
     },
     "IUT": "FALSE",
-    "Nom image": "?"
+    "Nom image": "fish_logo"
   },
   {
     "Ressource": "PowerShell",
