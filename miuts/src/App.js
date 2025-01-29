@@ -48,7 +48,7 @@ export default function App() {
             ref={detailsRef}
             className="min-h-screen w-full flex flex-col items-center justify-center bg-gray-800 text-white py-8"
           >
-            <div className="w-11/12 md:w-3/4 lg:w-1/2 bg-gray-700 p-8 rounded">
+            <div>
               <Details
                 item={selectedItem}
                 technicalRessources={technicalRessources}

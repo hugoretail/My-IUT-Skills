@@ -11,54 +11,90 @@ export default function Details({ item, technicalRessources }) {
   };
 
   return (
-    <div className="mt-4 p-6 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl shadow-2xl">
-      <div className="flex items-center justify-center mb-4">
-        {!item.NomImage && <RiBookShelfLine size="1.5em" className="mr-1" />}
-        <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
-          {item.Ressource && <span className="p-3">{item.Ressource}</span>}
-          {item.Nom && <span className="p-3">{item.Nom}</span>}
-          {item.Semestre && <span className="p-3">S{item.Semestre}</span>}
+    <div className="mt-4 p-6 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl shadow-2xl relative">
+      {/* IUT Badge */}
+      {item.IUT === "TRUE" && (
+        <div className="absolute top-3 right-3 group">
+          <div
+            className="px-3 py-1 bg-cyan-500/10 border border-cyan-400/30 rounded-full 
+                         hover:bg-cyan-500/20 transition-all duration-300 cursor-help"
+          >
+            <span className="text-sm text-cyan-400 font-medium">IUT</span>
+          </div>
+          <div
+            className="absolute right-0 mt-2 px-3 py-2 bg-gray-800 border border-cyan-500/20 
+                         rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity 
+                         duration-300 text-sm text-gray-300 whitespace-nowrap z-10"
+          >
+            Utilisé à l'IUT
+          </div>
+        </div>
+      )}
+
+      {/* Logo Pin */}
+      {(item.NomImage || !item.NomImage) && (
+        <div className="absolute top-3 left-3">
+          <div
+            className="w-14 h-14 rounded-full p-2 bg-gray-700/50 border border-gray-600 
+                         hover:border-cyan-500/30 shadow-lg transform hover:scale-110 
+                         transition-all duration-300"
+          >
+            {item.NomImage ? (
+              <img
+                src={`/logo/${item.NomImage}.webp`}
+                alt={item.Ressource}
+                className="w-full h-full object-contain"
+              />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center">
+                <RiBookShelfLine size="1.5em" className="text-cyan-300" />
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Title */}
+      <div className="flex flex-col items-center mb-8">
+        <h2 className="text-2xl font-bold text-white text-center mt-8">
+          {item.Ressource && <span className="px-2">{item.Ressource}</span>}
+          {item.Nom && <span className="px-2">{item.Nom}</span>}
+          {item.Semestre && <span className="px-2">S{item.Semestre}</span>}
         </h2>
       </div>
 
-      {item.IUT === "TRUE" && (
-        <p className="text-sm text-cyan-400 font-medium mb-4 text-center">
-          (IUT)
-        </p>
-      )}
-
-      {item.NomImage && (
-        <img
-          src={`/logo/${item.NomImage}.webp`}
-          alt={item.Ressource}
-          className="w-12 h-12 mt-2 object-contain mx-auto hover:scale-110 transition-transform duration-300"
-        />
-      )}
-
+      {/* Description */}
       {item.Description && (
-        <p className="text-gray-300 mt-4 leading-relaxed">{item.Description}</p>
+        <div className="mt-2 p-4 bg-gray-800/40 border border-gray-700/50 rounded-lg">
+          <p className="text-gray-200 leading-relaxed">{item.Description}</p>
+        </div>
       )}
 
       {item.NotionsCles && (
         <div className="mt-6 bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm">
-          <h3 className="text-lg font-semibold mb-3 text-cyan-300">
-            Notions Clés :
+          <h3 className="text-lg font-semibold mb-3 text-cyan-100">
+            Notions Clés
           </h3>
-          <ul className="space-y-2 text-gray-300">
+          <div className="flex flex-wrap gap-2">
             {item.NotionsCles.map((notion, index) => (
-              <li key={index} className="flex items-center">
-                <span className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></span>
-                {notion}
-              </li>
+              <button
+                key={index}
+                className="px-3 py-1.5 bg-gray-700/50 hover:bg-gray-600/50 text-gray-300 rounded-full 
+                          border border-gray-600 hover:border-cyan-500/50 transition-all duration-300
+                          text-sm flex items-center space-x-2 hover:text-cyan-300"
+              >
+                <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full"></span>
+                <span>{notion}</span>
+              </button>
             ))}
-          </ul>
+          </div>
         </div>
       )}
 
       {item.RessourcesLiees && (
         <div className="mt-6">
-          <h3 className="text-lg font-semibold mb-4 text-cyan-300">
-            Ressources Liées :
+          <h3 className="text-lg font-semibold mb-4 text-cyan-100">
+            Ressources Liées
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
             {Object.entries(item.RessourcesLiees).map(([key, value], index) => {
