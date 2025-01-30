@@ -1491,7 +1491,7 @@
   },
   {
     "Ressource": "docopt",
-    "Description": "docopt est une bibliothèque Python pour créer des interfaces en ligne de commande basées sur la documentation. Elle facilite la création de commandes réutilisables et conviviales.",
+    "Description": "Bibliothèque Python pour créer des interfaces en ligne de commande basées sur la documentation. Elle facilite la création de commandes réutilisables et conviviales.",
     "Notions clés": [
       "Arguments de ligne de commande",
       "Documentation",
@@ -1506,7 +1506,7 @@
   },
   {
     "Ressource": "Visme",
-    "Description": "Visme est un outil de conception graphique en ligne pour créer des présentations, des infographies et des rapports. Il est conçu pour faciliter la collaboration et la création de contenus visuels attractifs.",
+    "Description": "Outil de conception graphique en ligne pour créer des présentations, des infographies et des rapports. Il est conçu pour faciliter la collaboration et la création de contenus visuels attractifs.",
     "Notions clés": [
       "Conception graphique",
       "Présentations",
@@ -1523,7 +1523,7 @@
   },
   {
     "Ressource": "StarUML",
-    "Description": "StarUML est un outil de modélisation UML pour la conception de logiciels. Il permet de créer des diagrammes UML et de documenter les architectures logicielles de manière efficace.",
+    "Description": "Outil de modélisation UML pour la conception de logiciels. Il permet de créer des diagrammes UML et de documenter les architectures logicielles de manière efficace.",
     "Notions clés": [
       "Modélisation UML",
       "Conception de logiciels",
@@ -1540,7 +1540,7 @@
   },
   {
     "Ressource": "EVE-NG",
-    "Description": "EVE-NG est un émulateur de réseau pour la conception et le test de topologies réseau. Il permet de simuler des environnements réseau complexes pour la formation et les tests.",
+    "Description": "Emulateur de réseau pour la conception et le test de topologies réseau. Il permet de simuler des environnements réseau complexes pour la formation et les tests.",
     "Notions clés": [
       "Émulation de réseau",
       "Topologies réseau",
@@ -1557,7 +1557,7 @@
   },
   {
     "Ressource": "GNS3",
-    "Description": "GNS3 est un logiciel de simulation de réseau pour concevoir et tester des topologies réseau. Il est utilisé pour simuler des environnements réseau complexes et tester des configurations.",
+    "Description": "Logiciel de simulation de réseau pour concevoir et tester des topologies réseau. Il est utilisé pour simuler des environnements réseau complexes et tester des configurations.",
     "Notions clés": [
       "Simulation de réseau",
       "Topologies réseau",
@@ -1574,7 +1574,7 @@
   },
   {
     "Ressource": "XSLT",
-    "Description": "XSLT est un langage de transformation XML utilisé pour convertir des documents XML en d'autres formats. Il est essentiel pour la structuration et la transformation des données XML.",
+    "Description": "Langage de transformation XML utilisé pour convertir des documents XML en d'autres formats. Il est essentiel pour la structuration et la transformation des données XML.",
     "Notions clés": [
       "Transformation XML",
       "Structuration de données",
