@@ -26,8 +26,19 @@ export default function Details({ item, iutData, technicalRessources }) {
 
   const iutDataList = getIutData(item.Ressource);
 
-  const handleIutResourceClick = (response) => {
+  const handleIutResourceClick = (data) => {
     console.log("TODO: Will handle the click on a ressource.")
+    console.log(data);
+  }
+
+  const handleKeyNotionClick = (data) => {
+    console.log("TODO: Click on a key notion.");
+    console.log(data);
+  }
+
+  const handleTechRessourceClick = (data) => {
+    console.log("TODO: Click on a technological ressource.");
+    console.log(data);
   }
 
   return (
@@ -119,6 +130,7 @@ export default function Details({ item, iutData, technicalRessources }) {
             <div className="flex flex-wrap justify-center gap-2 mt-3 transition-all duration-300">
               {item.NotionsCles.map((notion, index) => (
                 <button
+                  onClick={() => handleKeyNotionClick(notion)}
                   key={index}
                   className="px-3 py-1.5 bg-gray-700/50 hover:bg-gray-600/50 text-gray-300 rounded-full
                             border border-gray-600 hover:border-cyan-500/50 transition-all duration-300
@@ -147,6 +159,7 @@ export default function Details({ item, iutData, technicalRessources }) {
                     <div className="relative">
                       {ressourceDetails["Nom image"] ? (
                         <img
+                          onClick={() => handleTechRessourceClick(key)}
                           src={`/logo/${ressourceDetails["Nom image"]}.webp`}
                           alt={key}
                           className="w-16 h-16 object-contain hover:scale-110 transition-all duration-300 hover:cursor-pointer peer rounded-lg p-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700 hover:border-cyan-500/50"
