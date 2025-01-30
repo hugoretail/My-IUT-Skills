@@ -166,7 +166,7 @@ export default function Details({ item, iutData, technicalRessources }) {
                         />
                       ) : (
                         <div className="w-16 h-16 flex items-center justify-center hover:scale-110 transition-all duration-300 hover:cursor-pointer peer rounded-lg p-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700 hover:border-cyan-500/50">
-                          <span className="text-cyan-300 text-sm text-center">
+                          <span onClick={() => handleTechRessourceClick(key)} className="text-cyan-300 text-sm text-center">
                             {key}
                           </span>
                         </div>
