@@ -11,3 +11,12 @@ Nous avons donc décidé de pauser le projet pour l'instant, libre à vous de vo
 ## Sources
 
 Les sources des données récoltées sont accessibles depuis le fichier **sources.md**.
+
+## TODO
+
+- Rust
+- OCaml
+- NodeJS
+
+- Lien entre Ressources et Technos de l'IUT (afficher quelles ressources)
+- Description des ressources de l'IUT

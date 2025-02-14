@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { RiBookShelfLine } from "react-icons/ri";
+import { ChevronDown, ChevronUp } from "lucide-react";
 
-export default function Details({ item, technicalRessources }) {
+export default function Details({ item, iutData, technicalRessources }) {
+  const [showNotions, setShowNotions] = useState(false);
+
   if (!item) return null;
 
   const getRessourceDetails = (ressourceName) => {
@@ -9,6 +12,34 @@ export default function Details({ item, technicalRessources }) {
       (ressource) => ressource.Ressource === ressourceName
     );
   };
+
+  const getIutData = (itemName) => {
+    return iutData.filter((data) =>
+      data.Langages.split(";").includes(itemName) ||
+      data["IDE / Environnement de travail"].split(";").includes(itemName) ||
+      data["Frameworks / Librairies"].split(";").includes(itemName) ||
+      data["Outils / Outils de gestion"].split(";").includes(itemName) ||
+      data["Compilateurs / Outils de build"].split(";").includes(itemName) ||
+      data["Outils de design / Maquettage"].split(";").includes(itemName)
+    );
+  }
+
+  const iutDataList = getIutData(item.Ressource);
+
+  const handleIutResourceClick = (data) => {
+    console.log("TODO: Will handle the click on a ressource.")
+    console.log(data);
+  }
+
+  const handleKeyNotionClick = (data) => {
+    console.log("TODO: Click on a key notion.");
+    console.log(data);
+  }
+
+  const handleTechRessourceClick = (data) => {
+    console.log("TODO: Click on a technological ressource.");
+    console.log(data);
+  }
 
   return (
     <div className="mt-4 p-6 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-xl shadow-2xl relative">
@@ -55,24 +86,62 @@ export default function Details({ item, technicalRessources }) {
         </div>
       )}
 
-      {item.NotionsCles && (
-        <div className="mt-6 bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm">
+      {iutDataList.length > 0 && (
+        <div className="mt-4 p-4 bg-gray-800/40 border border-gray-700/50 rounded-lg">
           <h3 className="text-lg font-semibold mb-3 text-cyan-100">
-            Notions Clés
+            IUT
           </h3>
-          <div className="flex flex-wrap justify-center gap-2">
-            {item.NotionsCles.map((notion, index) => (
+          <div className="flex flex-wrap gap-2 justify-center">
+            {iutDataList.map((data, index) => (
               <button
                 key={index}
-                className="px-3 py-1.5 bg-gray-700/50 hover:bg-gray-600/50 text-gray-300 rounded-full 
-                          border border-gray-600 hover:border-cyan-500/50 transition-all duration-300
-                          text-sm flex items-center space-x-2 hover:text-cyan-300"
+                onClick={() => handleIutResourceClick(data.Ressource)}
+                className="px-4 py-2 bg-gray-700/50 hover:bg-gray-600/50
+                         text-gray-300 hover:text-cyan-300
+                         rounded-lg border border-gray-600
+                         hover:border-cyan-500/50
+                         transition-all duration-300
+                         flex items-center space-x-2
+                         group"
               >
-                <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full"></span>
-                <span>{notion}</span>
+                <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full
+                               group-hover:scale-125 transition-transform"></span>
+                <span>{data.Ressource} {data.Nom}</span>
               </button>
             ))}
           </div>
+        </div>
+      )}
+
+      {item.NotionsCles && (
+        <div className="mt-6 bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm">
+          <button 
+            onClick={() => setShowNotions(!showNotions)}
+            className="w-full flex items-center justify-between text-lg font-semibold text-cyan-100 hover:text-cyan-300 transition-colors duration-300"
+          >
+            <span>Notions Clés</span>
+            {showNotions ? (
+              <ChevronUp className="w-5 h-5" />
+            ) : (
+              <ChevronDown className="w-5 h-5" />
+            )}
+          </button>
+          {showNotions && (
+            <div className="flex flex-wrap justify-center gap-2 mt-3 transition-all duration-300">
+              {item.NotionsCles.map((notion, index) => (
+                <button
+                  onClick={() => handleKeyNotionClick(notion)}
+                  key={index}
+                  className="px-3 py-1.5 bg-gray-700/50 hover:bg-gray-600/50 text-gray-300 rounded-full
+                            border border-gray-600 hover:border-cyan-500/50 transition-all duration-300
+                            text-sm flex items-center space-x-2 hover:text-cyan-300"
+                >
+                  <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full"></span>
+                  <span>{notion}</span>
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       )}
 
@@ -90,13 +159,14 @@ export default function Details({ item, technicalRessources }) {
                     <div className="relative">
                       {ressourceDetails["Nom image"] ? (
                         <img
+                          onClick={() => handleTechRessourceClick(key)}
                           src={`/logo/${ressourceDetails["Nom image"]}.webp`}
                           alt={key}
                           className="w-16 h-16 object-contain hover:scale-110 transition-all duration-300 hover:cursor-pointer peer rounded-lg p-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700 hover:border-cyan-500/50"
                         />
                       ) : (
                         <div className="w-16 h-16 flex items-center justify-center hover:scale-110 transition-all duration-300 hover:cursor-pointer peer rounded-lg p-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700 hover:border-cyan-500/50">
-                          <span className="text-cyan-300 text-sm text-center">
+                          <span onClick={() => handleTechRessourceClick(key)} className="text-cyan-300 text-sm text-center">
                             {key}
                           </span>
                         </div>

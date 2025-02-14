@@ -51,6 +51,7 @@ export default function App() {
             <div>
               <Details
                 item={selectedItem}
+                iutData={iutData}
                 technicalRessources={technicalRessources}
               />
             </div>
